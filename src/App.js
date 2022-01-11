@@ -1,5 +1,5 @@
 import { intro, menu, profile, exp, work } from './texts'; // Relative path to your File
-import './App.css';
+// import './App.css';
 import React, { Component } from 'react';
 import Navbar from './componants/navBar';
 
@@ -48,7 +48,7 @@ function App() {
 
       {/* First row INTRODUCTION */}
       <div id="intro" className=" flex h-screen ">
-        <div class="m-auto w-full max-w-5xl  ">
+        <div className="m-auto w-full max-w-5xl  ">
           <h1 className=" text-main_green  text-left pb-3 ">Hi, my name is </h1>
           <h2 className="text-4xl text-white font-bold pb-3 px-8 text-opacity-90 ">{intro.name}</h2>
           <h3 className="text-3xl text-white font-bold text-opacity-50 pb-3 ">{intro.under_name}</h3>
@@ -94,7 +94,7 @@ function App() {
 
         {/* 3rd row EDUCATION & WORK */}
         <div id="exp" className=" mb-32">
-          <div className='text-white text-opacity-50 flex flex-col lg:flex-row list-none pb-2 text-xl border-opacity-30 '>
+          <div className='text-white text-opacity-50 flex flex-col lg:flex-row list-none pb-2 text-xl '>
             <span className="ml-2 text-main_green mr-2 ">02. </span>
             <h1 className=' font-semibold tracking-wider'> {menu.it2}</h1>
           </div>
@@ -163,11 +163,64 @@ function App() {
         </div>
 
         {/* 4th row PROJECTS */}
-        <div id="projects" className=" ">
-          <div className='text-white text-opacity-50 flex flex-col lg:flex-row list-none pb-2 text-xl border-green-200 border-b-2 border-opacity-30'>
+        <div id="projects" className=" mb-12  ">
+          <div className='text-white text-opacity-50 flex flex-col lg:flex-row list-none pb-2 text-xl '>
             <span className="ml-2 text-main_green mr-2 ">03. </span>
             <h1 className=' font-semibold tracking-wider'> {menu.it3}</h1>
           </div>
+
+          <h2 className=' text-main_green text-2xl tracking-widest text-center mb-12 mt-8 '>PROJECTS</h2>
+
+          <div className='grid grid-cols-2 grid-rows-2 max-w-2xl m-auto '>
+
+
+            <div className="relative mt-8 ml-8 ">
+              <a href="https://www.google.com" className="absolute inset-0 z-10 h-full w-full  bg-main_green bg-opacity-60 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100  ">
+                <h1 className="tracking-wider" >Title</h1>
+                <p className="mx-auto">Description</p>
+              </a>
+              <a  className="relative">
+                <div className=" flex flex-wrap content-center">
+                  <img src={profile_img} className="h-full w-full" alt="" />
+                </div>
+              </a>
+            </div>
+            <div className="relative mt-8 ml-8">
+              <a href="https://www.google.com" className="absolute inset-0 z-10 h-full w-full  bg-main_green bg-opacity-60 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100  ">
+                <h1 className="tracking-wider" >Title</h1>
+                <p className="mx-auto">Description</p>
+              </a>
+              <a  className="relative">
+                <div className=" flex flex-wrap content-center">
+                  <img src={profile_img} className="h-full w-full" alt="" />
+                </div>
+              </a>
+            </div>
+            <div  className="relative mt-8 ml-8">
+              <a  href="https://www.google.com" className="absolute inset-0 z-10 h-full w-full  bg-main_green bg-opacity-60 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100  ">
+                <h1 className="tracking-wider" >Title</h1>
+                <p className="mx-auto">Description</p>
+              </a>
+              <a className="relative">
+                <div className=" flex flex-wrap content-center">
+                  <img src={profile_img} className="h-full w-full" alt="" />
+                </div>
+              </a>
+            </div>
+            <div className="relative mt-8 ml-8">
+              <a  href="https://www.google.com" className="absolute inset-0 z-10 h-full w-full  bg-main_green bg-opacity-60 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100  ">
+                <h1 className="tracking-wider" >Title</h1>
+                <p className="mx-auto">Description</p>
+              </a>
+              <a className="relative">
+                <div className=" flex flex-wrap content-center">
+                  <img src={profile_img} className="h-full w-full" alt="" />
+                </div>
+              </a>
+            </div>
+
+          </div>
+
         </div>
 
         {/* 5th row CONTACT */}
