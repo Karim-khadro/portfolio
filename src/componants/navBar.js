@@ -3,7 +3,7 @@ import Pdf from '../Documents/CV.pdf';
 
 const Navbar = () => {
     return (
-        <nav className=" sticky top-0 z-50 pt-6 font-MyFont ">
+        <nav className="  top-0 z-50 pt-6 font-MyFont ">
         <div class="relative">
           <div class="absolute left-10 text-white text-lg font-bold ">
             <a href='#intro' className="px-3 py-4 flex items-center">

@@ -25,19 +25,198 @@ function App() {
     return age_now;
   }
 
-  const GetEducation = (items) => {
-    var ret = "";
+  const Format_ab = (item) => {
+    const filled_star = <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>;
+    const empty_star = <path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path>;
 
-    return ret;
-
+    const num_stars = parseInt(item.score);
+    switch (num_stars) {
+      case 1: return (
+         <div className=' transform grid grid-cols-2 mt-3 transition duration-500 hover:scale-105'>
+          <span className='ml-16 opacity-80 '>{item.name}</span>
+          <ul class="ml-24 flex justify-center ">
+            <li >
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                {filled_star}
+              </svg>
+            </li>
+            <li>
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                {empty_star}
+              </svg>
+            </li>
+            <li>
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                {empty_star}
+              </svg>
+            </li>
+            <li>
+              <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                {empty_star}
+              </svg>
+            </li>
+            <li>
+              <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-main_green" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                {empty_star}
+              </svg>
+            </li>
+          </ul>
+        </div>
+      );
+      case 2:
+        return (
+           <div className=' transform grid grid-cols-2 mt-3 transition duration-500 hover:scale-105'>
+            <span className='ml-16 opacity-80 '>{item.name}</span>
+            <ul class="ml-24 flex justify-center">
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {filled_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {filled_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {empty_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {empty_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-main_green" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {empty_star}
+                </svg>
+              </li>
+            </ul>
+          </div>
+        );
+      case 3: 
+        return (
+          <div className=' transform grid grid-cols-2 mt-3 transition duration-500 hover:scale-105'>
+            <span className='ml-16 opacity-80 '>{item.name}</span>
+            <ul class="ml-24 flex justify-center ">
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {filled_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {filled_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {filled_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {empty_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-main_green" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {empty_star}
+                </svg>
+              </li>
+            </ul>
+          </div>
+        );
+      case 4:
+        return (
+           <div className=' transform grid grid-cols-2 mt-3 transition duration-500 hover:scale-105'>
+            <span className='ml-16 opacity-80 '>{item.name}</span>
+            <ul class="ml-24 flex justify-center">
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {filled_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {filled_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {filled_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {filled_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-main_green" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {empty_star}
+                </svg>
+              </li>
+            </ul>
+          </div>
+        );
+      case 5:
+        return (
+           <div className=' transform grid grid-cols-2 mt-3 transition duration-500 hover:scale-105'>
+            <span className='ml-16 opacity-80  '>{item.name}</span>
+            <ul class="ml-24 flex justify-center">
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {filled_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {filled_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {filled_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-main_green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {filled_star}
+                </svg>
+              </li>
+              <li>
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-main_green" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  {filled_star}
+                </svg>
+              </li>
+            </ul>
+          </div>
+        );
+    }
   }
 
-  const FormatEducation = (item) => {
+  const FormatEducation_Job = (item) => {
     return (
-      <div>
-        <h3 className=' font-semibold'> {item.inst_name} </h3>
+      <div className="grid grid-cols-2 gap-2 mt-16 ">
+        <div >
+          <h3 className=' font-semibold mb-5'> {item.inst_name} </h3>
+          <span className=' opacity-80'>{item.starting_date} - {item.finish_date} </span>
+        </div>
+        <div className=' '>
+          <h3 className=' font-bold mb-5'> {item.job_class_name} </h3>
+          <p className='opacity-80'> {item.description} </p>
+          <div className='flex flex-col lg:flex-row list-none col-span-2 mt-6' >
+            <img src={pin_loc} className="w-5 h-5 " alt="" />
+            <span className='ml-2 text-main_green  opacity-80'>
+              {item.location}
+            </span>
+          </div>
+        </div>
       </div>
-    )
+    );
   }
 
 
@@ -99,31 +278,13 @@ function App() {
             <h1 className=' font-semibold tracking-wider'> {menu.it2}</h1>
           </div>
 
-          <div className="grid grid-rows-2 gap-4 mt-5 ">
+          <div className=" mt-5 ">
             {/* 1st row */}
             <div >
               <h2 className=' text-main_green text-2xl tracking-widest text-center'>Education</h2>
               <div className=" ml-16 ">
                 {exp.education.map((item) => {
-                  return (
-                    <div className="grid grid-cols-2 gap-2 mt-16 ">
-                      <div >
-                        <h3 className=' font-semibold mb-5'> {item.inst_name} </h3>
-                        <span className=' opacity-80'>{item.starting_date} - {item.finish_date} </span>
-                      </div>
-                      <div className=' '>
-                        <h3 className=' font-bold mb-5'> {item.class_name} </h3>
-                        <p className='opacity-80'> {item.description} </p>
-                        <div className='flex flex-col lg:flex-row list-none col-span-2 mt-6' >
-                          <img src={pin_loc} className="w-5 h-5 " alt="" />
-                          <span className='ml-2 text-main_green  opacity-80'>
-                            {item.location}
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  );
-
+                  return (FormatEducation_Job(item));
                 })}
 
               </div>
@@ -131,31 +292,35 @@ function App() {
 
             {/* 2nd row */}
             <div className='mt-5 border-t-2 border-main_green border-opacity-20 '>
-
               <h2 className=' mt-8 text-main_green text-2xl tracking-widest text-center'>Work</h2>
               <div className="  ml-16 ">
                 {exp.work.map((item) => {
-                  return (
-                    <div className="grid grid-cols-2 gap-2  mt-16">
-                      <div >
-                        <h3 className=' font-semibold mb-5'> {item.company_name} </h3>
-                        <span className=' opacity-80'>{item.starting_date} - {item.finish_date} </span>
-                      </div>
-                      <div >
-                        <h3 className=' font-bold mb-5 '> {item.job_name} </h3>
-                        <p className=' opacity-80'> {item.description} </p>
+                  return (FormatEducation_Job(item));
+                })}
+              </div>
+            </div>
 
-                        <div className='flex flex-col lg:flex-row list-none col-span-2 mt-6' >
-                          <img src={pin_loc} className="w-5 h-5 " alt="" />
-                          <span className='ml-2 text-main_green  opacity-80'>
-                            {item.location}
-                          </span>
-                        </div>
+            {/* 3rd row */}
+            <div className='mt-5 border-t-2 border-main_green border-opacity-20'>
+              <h2 className=' mt-8 text-main_green text-2xl tracking-widest text-center'>Abilities</h2>
+              <h3 className=' mt-8  text-2xl tracking-widest'>Skills</h3>
+              <div className="mt-8 ml-4 grid grid-flow-row grid-cols-2 ">
+                {exp.skills.map((item) => {
+                  return (Format_ab(item));
+                })}
+              </div>
 
-                      </div>
-                    </div>
-                  );
+              <h3 className=' mt-8  text-2xl tracking-widest border-t-2 border-main_green border-opacity-20 pt-8'>Languages</h3>
+              <div className="ml-4 mt-8 grid grid-flow-row grid-cols-2 ">
+                {exp.languages.map((item) => {
+                  return (Format_ab(item));
+                })}
+              </div>
 
+              <h3 className=' mt-8  text-2xl tracking-widest border-t-2 border-main_green border-opacity-20 pt-8'>Tools</h3>
+              <div className="ml-4 mt-8 grid grid-flow-row grid-cols-2 ">
+                {exp.tools.map((item) => {
+                  return (Format_ab(item));
                 })}
               </div>
             </div>
@@ -179,7 +344,7 @@ function App() {
                 <h1 className="tracking-wider" >Title</h1>
                 <p className="mx-auto">Description</p>
               </a>
-              <a  className="relative">
+              <a className="relative">
                 <div className=" flex flex-wrap content-center">
                   <img src={profile_img} className="h-full w-full" alt="" />
                 </div>
@@ -190,14 +355,14 @@ function App() {
                 <h1 className="tracking-wider" >Title</h1>
                 <p className="mx-auto">Description</p>
               </a>
-              <a  className="relative">
+              <a className="relative">
                 <div className=" flex flex-wrap content-center">
                   <img src={profile_img} className="h-full w-full" alt="" />
                 </div>
               </a>
             </div>
-            <div  className="relative mt-8 ml-8">
-              <a  href="https://www.google.com" className="absolute inset-0 z-10 h-full w-full  bg-main_green bg-opacity-60 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100  ">
+            <div className="relative mt-8 ml-8">
+              <a href="https://www.google.com" className="absolute inset-0 z-10 h-full w-full  bg-main_green bg-opacity-60 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100  ">
                 <h1 className="tracking-wider" >Title</h1>
                 <p className="mx-auto">Description</p>
               </a>
@@ -208,7 +373,7 @@ function App() {
               </a>
             </div>
             <div className="relative mt-8 ml-8">
-              <a  href="https://www.google.com" className="absolute inset-0 z-10 h-full w-full  bg-main_green bg-opacity-60 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100  ">
+              <a href="https://www.google.com" className="absolute inset-0 z-10 h-full w-full  bg-main_green bg-opacity-60 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100  ">
                 <h1 className="tracking-wider" >Title</h1>
                 <p className="mx-auto">Description</p>
               </a>
