@@ -1,11 +1,8 @@
-import { intro, menu, profile, exp, work } from './texts'; // Relative path to your File
-// import './App.css';
-import React, { Component } from 'react';
+import { intro, menu, profile, exp, projects } from './texts'; // Relative path to your File
+import { SocialIcon } from 'react-social-icons';import React from 'react';
 import Navbar from './componants/navBar';
-
-import profile_img from './img/profile.jpg';
-
-import pin_loc from './img/placeholder.png';
+import profile_img from './images/profile.jpg';
+import pin_loc from './images/placeholder.png';
 
 function App() {
   const calculate_age = (dob1) => {
@@ -32,7 +29,7 @@ function App() {
     const num_stars = parseInt(item.score);
     switch (num_stars) {
       case 1: return (
-         <div className=' transform grid grid-cols-2 mt-3 transition duration-500 hover:scale-105'>
+        <div className=' transform grid grid-cols-2 mt-3 transition duration-500 hover:scale-105'>
           <span className='ml-16 opacity-80 '>{item.name}</span>
           <ul class="ml-24 flex justify-center ">
             <li >
@@ -65,7 +62,7 @@ function App() {
       );
       case 2:
         return (
-           <div className=' transform grid grid-cols-2 mt-3 transition duration-500 hover:scale-105'>
+          <div className=' transform grid grid-cols-2 mt-3 transition duration-500 hover:scale-105'>
             <span className='ml-16 opacity-80 '>{item.name}</span>
             <ul class="ml-24 flex justify-center">
               <li>
@@ -96,7 +93,7 @@ function App() {
             </ul>
           </div>
         );
-      case 3: 
+      case 3:
         return (
           <div className=' transform grid grid-cols-2 mt-3 transition duration-500 hover:scale-105'>
             <span className='ml-16 opacity-80 '>{item.name}</span>
@@ -131,7 +128,7 @@ function App() {
         );
       case 4:
         return (
-           <div className=' transform grid grid-cols-2 mt-3 transition duration-500 hover:scale-105'>
+          <div className=' transform grid grid-cols-2 mt-3 transition duration-500 hover:scale-105'>
             <span className='ml-16 opacity-80 '>{item.name}</span>
             <ul class="ml-24 flex justify-center">
               <li>
@@ -164,7 +161,7 @@ function App() {
         );
       case 5:
         return (
-           <div className=' transform grid grid-cols-2 mt-3 transition duration-500 hover:scale-105'>
+          <div className=' transform grid grid-cols-2 mt-3 transition duration-500 hover:scale-105'>
             <span className='ml-16 opacity-80  '>{item.name}</span>
             <ul class="ml-24 flex justify-center">
               <li>
@@ -220,6 +217,29 @@ function App() {
   }
 
 
+  const Format_projects = (item) => {
+    const l = item.image_link;
+    console.log(l)
+    const getImagePath = (image) => {
+      return `./images/${image}.jpg`
+    }
+    return (
+      <div className="relative mt-8  ">
+        <a href={item.link} className="absolute inset-0 z-10 h-56 w-5/6 bg-main_green bg-opacity-60 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100  ">
+          <h1 className="tracking-wider text-xl mb-5" >{item.title} </h1>
+          <p className="mx-auto">{item.description}</p>
+        </a>
+        <a className="relative">
+          <div className=" flex flex-wrap content-center">
+            <img src={require(`${item.image_link}`).default} className="object-cover h-56 w-5/6" alt="" />
+          </div>
+        </a>
+      </div>
+    );
+  }
+
+
+
   return (
     <div className="bg-background  text-white">
       {/* <Navbar /> */}
@@ -242,9 +262,9 @@ function App() {
       <div className=" w-full max-w-5xl m-auto .h-screen flex flex-col space-y-5 ">
         {/* 2nd row ABOUT ME */}
         <div id="about" className=" mb-32">
-          <div className='text-white text-opacity-50 flex flex-col lg:flex-row list-none text-xl'>
+          <div className='text-white  flex flex-col lg:flex-row list-none text-xl'>
             <span className="ml-2 text-main_green mr-2 ">01. </span>
-            <h1 className=' font-semibold tracking-wider'> {menu.it1}</h1>
+            <h1 className=' text-2xl tracking-wider mb-8 opacity-70 hover:opacity-100'> {menu.it1}</h1>
           </div>
 
           <div className="grid grid-cols-3 gap-4 mt-5 ">
@@ -272,10 +292,10 @@ function App() {
         </div>
 
         {/* 3rd row EDUCATION & WORK */}
-        <div id="exp" className=" mb-32">
-          <div className='text-white text-opacity-50 flex flex-col lg:flex-row list-none pb-2 text-xl '>
+        <div id="exp" className=" mb-36">
+          <div className='text-white flex flex-col lg:flex-row list-none pb-2 text-xl '>
             <span className="ml-2 text-main_green mr-2 ">02. </span>
-            <h1 className=' font-semibold tracking-wider'> {menu.it2}</h1>
+            <h1 className=' text-2xl tracking-wider mb-8 opacity-70 hover:opacity-100'> {menu.it2}</h1>
           </div>
 
           <div className=" mt-5 ">
@@ -328,77 +348,45 @@ function App() {
         </div>
 
         {/* 4th row PROJECTS */}
-        <div id="projects" className=" mb-12  ">
-          <div className='text-white text-opacity-50 flex flex-col lg:flex-row list-none pb-2 text-xl '>
+        <div id="projects" className="border-t-2 border-main_green border-opacity-50 ">
+
+          <div className='text-white flex flex-col lg:flex-row list-none pb-2 text-xl mt-28'>
             <span className="ml-2 text-main_green mr-2 ">03. </span>
-            <h1 className=' font-semibold tracking-wider'> {menu.it3}</h1>
+            <h1 className=' text-2xl tracking-wider mb-8 opacity-70 hover:opacity-100'> {menu.it3}</h1>
           </div>
 
-          <h2 className=' text-main_green text-2xl tracking-widest text-center mb-12 mt-8 '>PROJECTS</h2>
-
-          <div className='grid grid-cols-2 grid-rows-2 max-w-2xl m-auto '>
-
-
-            <div className="relative mt-8 ml-8 ">
-              <a href="https://www.google.com" className="absolute inset-0 z-10 h-full w-full  bg-main_green bg-opacity-60 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100  ">
-                <h1 className="tracking-wider" >Title</h1>
-                <p className="mx-auto">Description</p>
-              </a>
-              <a className="relative">
-                <div className=" flex flex-wrap content-center">
-                  <img src={profile_img} className="h-full w-full" alt="" />
-                </div>
-              </a>
-            </div>
-            <div className="relative mt-8 ml-8">
-              <a href="https://www.google.com" className="absolute inset-0 z-10 h-full w-full  bg-main_green bg-opacity-60 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100  ">
-                <h1 className="tracking-wider" >Title</h1>
-                <p className="mx-auto">Description</p>
-              </a>
-              <a className="relative">
-                <div className=" flex flex-wrap content-center">
-                  <img src={profile_img} className="h-full w-full" alt="" />
-                </div>
-              </a>
-            </div>
-            <div className="relative mt-8 ml-8">
-              <a href="https://www.google.com" className="absolute inset-0 z-10 h-full w-full  bg-main_green bg-opacity-60 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100  ">
-                <h1 className="tracking-wider" >Title</h1>
-                <p className="mx-auto">Description</p>
-              </a>
-              <a className="relative">
-                <div className=" flex flex-wrap content-center">
-                  <img src={profile_img} className="h-full w-full" alt="" />
-                </div>
-              </a>
-            </div>
-            <div className="relative mt-8 ml-8">
-              <a href="https://www.google.com" className="absolute inset-0 z-10 h-full w-full  bg-main_green bg-opacity-60 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100  ">
-                <h1 className="tracking-wider" >Title</h1>
-                <p className="mx-auto">Description</p>
-              </a>
-              <a className="relative">
-                <div className=" flex flex-wrap content-center">
-                  <img src={profile_img} className="h-full w-full" alt="" />
-                </div>
-              </a>
-            </div>
+          <div className='grid grid-cols-2 grid-flow-row max-w-4xl m-auto pb-12'>
+            {projects.projects.map((item) => {
+              return (Format_projects(item));
+            })}
 
           </div>
-
         </div>
 
         {/* 5th row CONTACT */}
-        <div id="contact" className=" ">
-          <div className='text-white text-opacity-50 flex flex-col lg:flex-row list-none pb-2 text-xl border-green-200 border-b-2 border-opacity-30'>
-            <span className="ml-2 text-main_green mr-2 ">04. </span>
-            <h1 className=' font-semibold tracking-wider'> {menu.it4}</h1>
+        <div id="contact" className="border-t-2 border-main_green border-opacity-50">
+
+
+          <div className='pb-2 items-center mt-16 text-center  max-w-xl m-auto '>
+            <p className='leading-normal'> <h1 className=' text-2xl text-main_green tracking-wider mb-8'> 04. {menu.it4symb}</h1></p>
+
+            <h1 className=' text-5xl  mb-3 font-bold opacity-70 '> Get In Touch </h1>
+            <p>Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!  </p>
+            <a class="mailto" href="mailto:contact@test.com">
+              <button className='mt-8 border-2 border-main_green text-main_green rounded-md px-10 py-5 hover:bg-main_green hover:bg-opacity-20' trailingIcon="picture_as_pdf" label="Resume">
+                Say Hello
+              </button>
+            </a>
+            <div className='mt-5'> 
+            <SocialIcon className='mr-5' url="https://www.linkedin.com/in/karim-khadro-8841461ba/" target="_blank" />
+            <SocialIcon url="https://github.com/Karim-khadro/" target="_blank"/>
+            </div>
           </div>
         </div>
 
       </div>
-
-    </div>
+      <footer className=' text-center opacity-60 mt-32 pb-5 max-w-2xl m-auto'>Build & des by me <br /> 2021</footer>
+    </div >
   );
 }
 

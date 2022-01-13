@@ -1,5 +1,5 @@
 export const intro = { name: "Karim Khadro", under_name: "I Build Things With Passion", intro_text: "I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at " };
-export const menu = { it1: "Profile", it2: "Experiences", it3: "Projects", it4: "Contact" };
+export const menu = { it1: "Profile", it2: "Experiences", it3: "Projects", it4: "Contact", it4symb: "What's Next?" };
 export const profile = { name: "Karim Khadro", age: "29/09/1996", location: "Theux, Belgium, Planet Earth", text: "I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at  I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at" }
 export const exp = {
     education: [
@@ -36,8 +36,8 @@ export const exp = {
             { name: "React", score: 4 },
 
             { name: "JSON", score: 5 },
-            { name: "Deep learning", score: 3 },    
-            
+            { name: "Deep learning", score: 3 },
+
 
             { name: "SQL", score: 4 },
             { name: "MVC Pattern", score: 3 },
@@ -46,15 +46,15 @@ export const exp = {
             { name: "CSS/Tailwind", score: 3 },
 
             { name: "C#", score: 4 },
-            { name: "R", score: 2 }, 
-           
+            { name: "R", score: 2 },
+
 
             { name: "Javascript", score: 4 },
             { name: "XML", score: 2 },
-            
-            
+
+
             { name: "Node js", score: 4 },
-            { name: "SEO", score: 1 }, 
+            { name: "SEO", score: 1 },
 
             { name: "UML", score: 4 }
         ],
@@ -80,3 +80,33 @@ export const exp = {
             { name: "Latex ", score: 3 }
         ]
 };
+
+export const projects = {
+    projects: [
+        {
+            title: "Git Repo Creator", description: "A command line script allowing users to create a local & remote git repo",
+            image_link: "./images/gitcreate.png", link: "/test"
+        },
+        {
+            title: "Test", description: "it's amaziiiig so fun",
+            image_link: "./images/test.png", link: "/test"
+        },
+        {
+            title: "Test", description: "it's amaziiiig so fun",
+            image_link: "./images/profile.jpg", link: "/test"
+        },
+        {
+            title: "Test", description: "it's amaziiiig so fun",
+            image_link: "./images/test2.png", link: "/test"
+        },
+        {
+            title: "Test", description: "it's amaziiiig so fun",
+            image_link: "./images/profile.jpg", link: "/test"
+        },
+        {
+            title: "Test", description: "it's amaziiiig so fun",
+            image_link: "./images/profile.jpg", link: "/test"
+        }
+        
+    ]
+}
