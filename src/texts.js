@@ -1,6 +1,17 @@
-export const intro = { name: "Karim Khadro", under_name: "I Build Things With Passion", intro_text: "I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at " };
-export const menu = { it1: "Profile", it2: "Experiences", it3: "Projects", it4: "Contact", it4symb: "What's Next?" };
-export const profile = { name: "Karim Khadro", age: "29/09/1996", location: "Theux, Belgium, Planet Earth", text: "I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at  I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at" }
+export const intro = {
+    name: "Karim Khadro",
+    under_name: "I Build Things With Passion",
+    intro_text: "I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at "
+};
+export const menu = { logo: "../images/logo.png", it1: "Profile", it2: "Experiences", it3: "Projects", it4: "Contact" }
+export const sections = { s1: "Know Me", s2: "Where I’ve Studied & Worked", s3: "Some Things I’ve Built", s4: "What's Next?" };
+export const profile = {
+    name: "Karim Khadro",
+    birth_date: "29/09/1996",
+    location: "Theux, Belgium, Planet Earth",
+    know_more: false,
+    text: "I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at  I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at"
+}
 export const exp = {
     education: [
         { inst_name: "The University of Liège", job_class_name: "MCs in Computer Science, Intelligent systems ", location: "Liège", starting_date: "Sept 2020", finish_date: "Sept 2021", description: "First year of master in computer science with Intelligent systems option. I learned about Deep learning, Machine learning and increased my programming knowledge. I quit after the first year of the two years and a half program" },
@@ -107,6 +118,14 @@ export const projects = {
             title: "Test", description: "it's amaziiiig so fun",
             image_link: "./images/profile.jpg", link: "/test"
         }
-        
+
     ]
+}
+
+export const contact = {
+    main_phrase: "Get In Touch",
+    text: "Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!",
+    email: "karim.khadro@hotmail.com",
+    linkedin: "https://www.linkedin.com/in/karim-khadro-8841461ba/",
+    github: "https://github.com/Karim-khadro/"
 }
