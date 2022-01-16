@@ -1,16 +1,21 @@
 export const intro = {
     name: "Karim Khadro",
-    under_name: "I Build Things With Passion",
-    intro_text: "I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at "
+    under_name: "I'm a Passionate Developer.",
+    intro_text: ""
 };
 export const menu = { logo: "../images/logo.png", it1: "Profile", it2: "Experiences", it3: "Projects", it4: "Contact" }
-export const sections = { s1: "Know Me", s2: "Where I’ve Studied & Worked", s3: "Some Things I’ve Built", s4: "What's Next?" };
+export const sections = { s1: "Know Me", s2: "Where I’ve Studied & Worked", s3: "Some Projects", s4: "Next Step:" };
 export const profile = {
     name: "Karim Khadro",
     birth_date: "29/09/1996",
     location: "Theux, Belgium, Planet Earth",
+    profileImg_URL: "./images/profile.jpg",
     know_more: false,
-    text: "I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at  I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at"
+    text: "I am a software developer in a constant search for new challenges. \
+    I love structure, order and I stand for quality. I like spending time fixing little details and optimizing apps. \
+     Fascinated by new technologies and willing to go further. I enjoy working with intelligent and passionate people, \
+     which allows me to learn and grow faster. Still, I'm also a considerably autonomous person. \
+     I'm interested in many things in life, like cryptocurrencies and it's technology, F1, traveling, and much more. "
 }
 export const exp = {
     education: [
@@ -21,19 +26,19 @@ export const exp = {
     work: [
         {
             inst_name: "I-pulses",
-            job_class_name: "5th grade ",
-            location: "Verviers",
-            starting_date: "Sept 2015",
-            description: "5th grade high school",
-            finish_date: "Jun 2016"
+            job_class_name: "Analyst developer (student job)",
+            location: "Blegny",
+            starting_date: "Oct 2019",
+            description: "The work was a continuation of my placement. The main part was making the chatbot fully operational and adding new functionality (Beck-end NodeJs & Front-end React), also connecting the chatbot with the client web services (C#) and finally deploying the chatbot.",
+            finish_date: "31 Dec 2019"
         },
         {
-            inst_name: "Haute Ecole de la Provaince de Liege",
-            job_class_name: "5th grade ",
-            location: "Verviers",
-            starting_date: "Sept 2015",
-            description: "5th grade high school",
-            finish_date: "Jun 2016"
+            inst_name: "I-pulses",
+            job_class_name: "Placement",
+            location: "Blegny",
+            starting_date: "Feb 2019",
+            description: "Mandatory placement of my bachelor's program. I built middleware to protect users' privacy when using a cloud-based chatbot. The main idea consists of using IBM Watson as the brain of the chatbot, Microsoft chatbot as the middleware as it's open source and could be self hoster, and webchat (built-in React) is open source as front-end. The middleware in NodeJS filters all the private content to prevent it from going to the cloud. ",
+            finish_date: "May 2019"
         }],
     skills:
         [
@@ -65,7 +70,7 @@ export const exp = {
 
 
             { name: "Node js", score: 4 },
-            { name: "SEO", score: 1 },
+            { name: "Bootstrap", score: 1 },
 
             { name: "UML", score: 4 }
         ],
@@ -95,28 +100,28 @@ export const exp = {
 export const projects = {
     projects: [
         {
-            title: "Git Repo Creator", description: "A command line script allowing users to create a local & remote git repo",
-            image_link: "./images/gitcreate.png", link: "/test"
+            title: "Github Repo Creator", description: "A command line script allowing users to create a local & remote git repo",
+            image_link: "./images/gitcreate.png", link: "https://github.com/Karim-khadro/Repo_creator"
         },
         {
-            title: "Test", description: "it's amaziiiig so fun",
-            image_link: "./images/test.png", link: "/test"
+            title: "Tasky", description: "Task manager, To-Do list, and calendar. For now, only the To-Do list is completed, the other parts are still under development",
+            image_link: "./images/tasky.png", link: "https://github.com/Karim-khadro/Tasky",font_color:"text-black"
         },
         {
-            title: "Test", description: "it's amaziiiig so fun",
-            image_link: "./images/profile.jpg", link: "/test"
+            title: "Kucoin app", description: "Using Kucoin API, this app helps users track their profits of closed positions, estimate returns from open positions, and help them decide the selling price. With more functionalities.",
+            image_link: "./images/kucoin.png", link: "/test",font_color:""
         },
         {
-            title: "Test", description: "it's amaziiiig so fun",
-            image_link: "./images/test2.png", link: "/test"
+            title: "Portfolio", description: "Personalizable website template. No programming knowledge. It's the template of this website.",
+            image_link: "./images/pottfolio.png", link: "/test",font_color:""
         },
         {
-            title: "Test", description: "it's amaziiiig so fun",
-            image_link: "./images/profile.jpg", link: "/test"
+            title: "Traffic sign detection", description: "Deep learning app that detects and classifies over 80 types of traffic signs. ",
+            image_link: "./images/tsd.png", link: "https://github.com/Karim-khadro/DL-Traffic-sign-detection",font_color:"text-black"
         },
         {
-            title: "Test", description: "it's amaziiiig so fun",
-            image_link: "./images/profile.jpg", link: "/test"
+            title: "Crypto correlation", description: "Shows the correlations between cryptocurrencies over a period of time. Still under developmnet.",
+            image_link: "./images/underconstruction.png", link: "",font_color:"text-black"
         }
 
     ]
@@ -124,8 +129,10 @@ export const projects = {
 
 export const contact = {
     main_phrase: "Get In Touch",
-    text: "Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!",
+    text: "I’m currently looking for new opportunities, my inbox is always open. Whether you have a job proposition or just want to say hi, I’ll try my best to get back to you!",
     email: "karim.khadro@hotmail.com",
     linkedin: "https://www.linkedin.com/in/karim-khadro-8841461ba/",
     github: "https://github.com/Karim-khadro/"
 }
+
+export const footer = { text: "Built by Karim Khadro" }

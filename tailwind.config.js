@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['BR Firma', 'sans-serif'],
-        'MyFont': ['"Office Code Pro"', 'serif']
+        'MyFont': ['"mono"', 'serif']
     },
       colors: {
         'background': '#0a192f',
