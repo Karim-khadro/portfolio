@@ -94,7 +94,7 @@ export default function MainPage() {
         {text}
         <a className="relative" target="_blank" >
           <div className=" flex flex-wrap content-center">
-            <img src={require(`${item.image_link}`).default} className="object-cover h-96 w-5/6" alt="" />
+            <img src={item.image_link} className="object-cover h-96 w-5/6" alt="" />
           </div>
         </a>
       </div>
@@ -114,7 +114,7 @@ export default function MainPage() {
   });
 
   return (
-    <div className="bg-background  text-white">
+    <div className="bg-background text-white">
 
       <Navbar />
 
@@ -151,7 +151,7 @@ export default function MainPage() {
 
             {/* Profile IMG */}
             <div className="mb-4 ">
-              <img src={require(`${profile.profileImg_URL}`).default} className=" max-w-5/6 max-h-5/6l min-h-5/6 min-w-5/6 rounded-full border-4 border-green-300 p-2" alt="" />
+              <img src={profile.profileImg_URL} className=" max-w-5/6 max-h-5/6l min-h-5/6 min-w-5/6 rounded-full border-4 border-green-300 p-2" alt="" />
             </div>
 
             {/* DETAILS */}
