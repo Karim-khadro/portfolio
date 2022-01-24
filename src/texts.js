@@ -1,5 +1,6 @@
 export const intro = {
-    name: "Karim Khadro",
+    name: "Karim",
+    surname:"KHADRO",
     under_name: "I'm a Passionate Developer.",
     intro_text: ""
 };
@@ -97,6 +98,7 @@ export const exp = {
         ]
 };
 
+
 export const projects = {
     projects: [
         {
@@ -109,11 +111,11 @@ export const projects = {
         },
         {
             title: "Kucoin app", description: "Using Kucoin API, this app helps users track their profits of closed positions, estimate returns from open positions, and help them decide the selling price. With more functionalities.",
-            image_link: "./images/kucoin.png", link: "/test",font_color:""
+            image_link: "./images/kucoin.png", link: "https://github.com/Karim-khadro/Kucoin-app-Public",font_color:""
         },
         {
             title: "Portfolio", description: "Personalizable website template. No programming knowledge. It's the template of this website.",
-            image_link: "./images/pottfolio.png", link: "/test",font_color:""
+            image_link: "./images/pottfolio.png", link: "https://github.com/Karim-khadro/portfolio",font_color:""
         },
         {
             title: "Traffic sign detection", description: "Deep learning app that detects and classifies over 80 types of traffic signs. ",

@@ -120,10 +120,12 @@ export default function MainPage() {
 
       {/* INTRODUCTION */}
       <div id="intro" className=" flex h-screen ">
-        <div className="m-auto w-full max-w-5xl  ">
-          <h1 className=" text-main_green  text-left pb-3 font-mono ">Hi, my name is </h1>
-          <h2 className="text-4xl text-white font-bold pb-3 px-8 text-opacity-90 ">{intro.name}</h2>
-          <h3 className="text-3xl text-white font-bold text-opacity-50 pb-3 ">{intro.under_name}</h3>
+        <div className="m-auto w-full max-w-5xl pb-32  ">
+          <div className='text-white  flex flex-col lg:flex-row list-none max-w-2xl m-auto'>
+            <span className=" text-7xl  font-extrabold tracking-wide font-serif text-main_green">{intro.name} </span>
+            <h1 className=" text-7xl text-white font-extrabold tracking-wide max-w-2xl m-auto font-serif"> {intro.surname}</h1>
+          </div>
+          <h2 className="text-3xl text-white font-bold text-opacity-50 pb-24 pt-8 max-w-2xl m-auto font-mono">{intro.under_name}</h2>
           <div className='text-white w-3/4  '>
             <p>
               {intro.intro_text}
@@ -270,11 +272,9 @@ export default function MainPage() {
       </div>
 
       {/* FOOTER */}
-      <footer className='pb-8 text-center  mt-32 max-w-2xl m-auto font-mono text-main_green'>{footer.text} </footer>
+      <footer className='pb-8 text-center mt-32 max-w-2xl m-auto font-mono text-main_green'>{footer.text} <br /> </footer>
     </div >
   );
-
-
 
 }
 
