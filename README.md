@@ -2,9 +2,9 @@
 Customizable portfolio website. Built-in ReactJs and Tailwind CSS. 
 
 ## Customization
-- The [text.js](src/text.js) file contains all the texts, so if you like the theme and the colors, you need to change the text only.
-- The [tailwind.config.js](tailwind.config.js) file contains the main theme color alongside the main font.
-- To delete or add sections, an intervention in the [mainPage.js](src/mainPage.js) is required with some knowledge in ReactJs and Tailwind.
+- The [texts.js]([src/text.js](https://github.com/Karim-khadro/portfolio/blob/main/src/texts.js)) file contains all the texts, so if you like the theme and the colors, you need to change the text only.
+- The [tailwind.config.js]([tailwind.config.js](https://github.com/Karim-khadro/portfolio/blob/main/tailwind.config.js)) file contains the main theme color alongside the main font.
+- To delete or add sections, an intervention in the [mainPage.js](https://github.com/Karim-khadro/portfolio/blob/main/src/mainPage.js) is required with some knowledge in ReactJs and Tailwind.
 - Add your CV in src/Documents ans name it CV.pdf.
 - Add all images in public/images.
 ## Available Scripts
