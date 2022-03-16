@@ -1,15 +1,15 @@
 export const intro = {
     name: "Karim",
     surname:"KHADRO",
-    under_name: "I'm a Passionate Developer.",
+    under_name: "I'm a Passionate, and Motivated Software Developer.",
     intro_text: ""
 };
 export const menu = { logo: "../images/logo.png", it1: "Profile", it2: "Experiences", it3: "Projects", it4: "Contact" }
 export const sections = { s1: "Know Me", s2: "Where I’ve Studied & Worked", s3: "Some Projects", s4: "Next Step:" };
 export const profile = {
-    name: "Karim Khadro",
+    name: "Karim Khadro.",
     birth_date: "29/09/1996",
-    location: "Theux, Belgium, Planet Earth",
+    location: "Theux, Belgium, Planet Earth.",
     profileImg_URL: "./images/profile.jpg",
     know_more: false,
     text: "I am a software developer in a constant search for new challenges. \
@@ -20,9 +20,12 @@ export const profile = {
 }
 export const exp = {
     education: [
-        { inst_name: "The University of Liège", job_class_name: "MCs in Computer Science, Intelligent systems ", location: "Liège", starting_date: "Sept 2020", finish_date: "Sept 2021", description: "First year of master in computer science with Intelligent systems option. I learned about Deep learning, Machine learning and increased my programming knowledge. I quit after the first year of the two years and a half program" },
-        { inst_name: "The Higher Education Institution of the Province of Liège", job_class_name: "Bachelor in Computer Science and Management, Intelligent systems ", location: "Seraing", starting_date: "Sept 2016", description: "The education started with basic programming in C then became mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML, C#, JS and more. During my time in college, I specialized in management which allowed me to have some knowledge in the big data field. ", finish_date: "Jan 2020" },
-        { inst_name: "Don Bosco Verviers Hight school", job_class_name: "Computer Technician ", location: "Verviers", starting_date: "Sept 2015", description: "First steps into web programming, computer reperation and computer parts, as well networking and manageniong small networks.   ", finish_date: "Jun 2016" }
+        { inst_name: "The University of Liège", job_class_name: "MCs in Computer Science, Intelligent systems ", location: "Liège", starting_date: "Sept 2020", finish_date: "Sept 2021",
+         description: "First year of master in computer science with Intelligent systems option. I learned about Deep learning, Machine learning and increased my programming knowledge. I quit after the first year of the two years and a half program." },
+        { inst_name: "The Higher Education Institution of the Province of Liège", job_class_name: "Bachelor in Computer Science and Management, Intelligent systems ", location: "Seraing", starting_date: "Sept 2016", 
+        description: "The education started with basic programming in C then became mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML, C#, JS and more. During my time in college, I specialized in management which allowed me to have some knowledge in the big data field. ", finish_date: "Jan 2020" },
+        { inst_name: "Don Bosco Verviers Hight school", job_class_name: "Computer Technician ", location: "Verviers", starting_date: "Sept 2015",
+        description: "First steps into web programming, computer reperation and computer parts, as well networking and manageniong small networks.", finish_date: "Jun 2016" }
     ],
     work: [
         {
@@ -110,20 +113,16 @@ export const projects = {
             image_link: "./images/tasky.png", link: "https://github.com/Karim-khadro/Tasky",font_color:"text-black"
         },
         {
-            title: "Kucoin app", description: "Using Kucoin API, this app helps users track their profits of closed positions, estimate returns from open positions, and help them decide the selling price. With more functionalities.",
+            title: "Kucoin app", description: "Using Kucoin API, this app helps users track their profits of closed positions, estimate returns from open positions, and help them decide the selling price. With more functionalities",
             image_link: "./images/kucoin.png", link: "https://github.com/Karim-khadro/Kucoin-app-Public",font_color:""
         },
         {
-            title: "Portfolio", description: "Personalizable website template. No programming knowledge. It's the template of this website.",
+            title: "Portfolio", description: "Personalizable website template. No programming knowledge. It's the template of this website",
             image_link: "./images/pottfolio.png", link: "https://github.com/Karim-khadro/portfolio",font_color:""
         },
         {
-            title: "Traffic sign detection", description: "Deep learning app that detects and classifies over 80 types of traffic signs. ",
+            title: "Traffic sign detection", description: "Deep learning app that detects and classifies over 80 types of traffic signs",
             image_link: "./images/tsd.png", link: "https://github.com/Karim-khadro/DL-Traffic-sign-detection",font_color:"text-black"
-        },
-        {
-            title: "Crypto correlation", description: "Shows the correlations between cryptocurrencies over a period of time. Still under developmnet.",
-            image_link: "./images/underconstruction.png", link: "",font_color:"text-black"
         }
 
     ]

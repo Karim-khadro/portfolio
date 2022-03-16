@@ -160,9 +160,9 @@ export default function MainPage() {
             <div className="ml-4 ">
               <h2 className='text-main_green text-2xl mb-3 font-mono'>Details</h2>
               <ul className=''>
-                <li className=' mt-6'> <span className='font-bold text-lg  opacity-50'> Name:  </span><br /> <span> {profile.name} </span> </li>
-                <li className=' mt-6' > <span className='font-bold text-lg  opacity-50'> Age:  </span><br /> <span className=''> {age} years </span></li>
-                <li className=' mt-6'> <span className='font-bold text-lg  opacity-50'> Location:  </span><br /> <span className=''> {profile.location} </span></li>
+                <li className=' mt-6'> <span className='font-bold text-lg  opacity-50'> Name:  </span><br /> <span className='font-MyFont'> {profile.name} </span> </li>
+                <li className=' mt-6' > <span className='font-bold text-lg  opacity-50'> Age:  </span><br /> <span className='font-MyFont'> {age} years </span></li>
+                <li className=' mt-6'> <span className='font-bold text-lg  opacity-50'> Location:  </span><br /> <span className='font-MyFont'> {profile.location} </span></li>
               </ul>
             </div>
           </div>
