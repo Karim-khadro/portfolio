@@ -1,7 +1,7 @@
 export const intro = {
     name: "Karim",
     surname:"KHADRO",
-    under_name: "I'm a Passionate, and Motivated Software Developer.",
+    under_name: "I'm a Passionate, Motivated and Unstoppable Developer.",
     intro_text: ""
 };
 export const menu = { logo: "../images/logo.png", it1: "Profile", it2: "Experiences", it3: "Projects", it4: "Contact" }
