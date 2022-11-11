@@ -45,20 +45,28 @@ export const exp = {
         }
     ],
     work: [{
-            inst_name: "Geo Solutions",
-            job_class_name: "Developer & GIS developer",
-            location: "Namur",
-            starting_date: "Mai 2022",
-            description: "I develop GIS related application, and full stack with cloud base applications using technologies like: OpenLayers, Leaflet, Geoserver, Angular, NodeJs, R shiny, C#, Azure, Sprint boot, etc..",
+            inst_name: "Unisensor",
+            job_class_name: "Full Stack Developer (Angular/Java)",
+            location: "Ourgée",
+            starting_date: "Nov 2022",
+            description: "Working on a web platform to help users visualize and understand the data coming from the analyzing devices ",
             finish_date: "Present"
         },
         {
+            inst_name: "Geo Solutions",
+            job_class_name: "Developer & GIS Developer",
+            location: "Namur",
+            starting_date: "Mai 2022",
+            description: "Developing GIS related application, and full stack with cloud base applications using technologies like: OpenLayers, Leaflet, Geoserver, Angular, NodeJs, R shiny, C#, Azure, Sprint boot, etc..",
+            finish_date: "Nov 2022"
+        },
+        {
             inst_name: "I-pulses",
-            job_class_name: "Analyst developer (student job)",
+            job_class_name: "Analyst Developer (student job)",
             location: "Blegny",
             starting_date: "Oct 2019",
             description: "The work was a continuation of my placement. The main part was making the chatbot fully operational and adding new functionality (Beck-end NodeJs & Front-end React), also connecting the chatbot with the client web services (C#) and finally deploying the chatbot.",
-            finish_date: "31 Dec 2019"
+            finish_date: "Dec 2019"
         },
         {
             inst_name: "I-pulses",
