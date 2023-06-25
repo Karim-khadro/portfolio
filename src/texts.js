@@ -79,10 +79,13 @@ export const exp = {
     ],
     skills: [
         { name: "Java", score: 5 },
-        { name: "C/C++", score: 4 },
+        { name: "Scrum", score: 4 },
+
+        { name: "Spring Boot", score: 5 },
+        { name: "Angular", score: 4 },
 
         { name: "Python", score: 5 },
-        { name: "Scrum", score: 4 },
+        { name: "Angular JS", score: 4 },
 
         { name: "Command line Inteface", score: 5 },
         { name: "React", score: 4 },
@@ -90,33 +93,29 @@ export const exp = {
         { name: "JSON", score: 5 },
         { name: "GIS technologies", score: 4 },
 
-
-
+        { name: "Kotlin", score: 4 },
+        { name: "C/C++", score: 3 },
 
         { name: "SQL", score: 4 },
         { name: "Deep learning", score: 3 },
 
-
         { name: "HTML/CSS", score: 4 },
         { name: "MVC Pattern", score: 3 },
-
 
         { name: "C#", score: 4 },
         { name: "CSS/Tailwind", score: 3 },
 
-
-
         { name: "Javascript", score: 4 },
         { name: "R", score: 3 },
-
-
 
         { name: "Node js", score: 4 },
         { name: "XML", score: 2 },
 
 
         { name: "UML", score: 4 },
-        { name: "Bootstrap", score: 1 }
+        { name: "Bootstrap", score: 1 },
+
+        { name: "Android Jetpack", score: 4 },
 
     ],
     languages: [
