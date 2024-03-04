@@ -104,14 +104,14 @@ export const exp = {
         { name: "GIS technologies", score: 4 },
         { name: "R", score: 3 },
         { name: "Terminal Windows & linux", score: 4 },
-        { name: "Bootstrap", score: 2 },
+        { name: "UI/UX", score: 2 },
         { name: "SQL Postgresql/Mysql", score: 4 },
         { name: "XML", score: 2 },
         { name: "NoSQL", score: 4 },
         { name: "Azure", score: 2 },
         
         {name: "UML", score: 4 },
-        
+        { name: "Bootstrap", score: 2 },
         
         
 
@@ -127,12 +127,11 @@ export const exp = {
         { name: "Visual Studio", score: 4 },
 
         { name: "Android Studio", score: 4 },
-        { name: "Linux ", score: 4 },
-
         { name: "Atlassian / Jira ", score: 3 },
-
+        { name: "Linux ", score: 4 },
+        { name: "Docker ", score: 3 },
         { name: "Git / Git Flow ", score: 4 },
-        { name: "Docker ", score: 3 }
+        { name: "Figma ", score: 3 }
     ]
 };
 
