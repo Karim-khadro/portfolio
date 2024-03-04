@@ -46,10 +46,13 @@ export const exp = {
     ],
     work: [{
             inst_name: "Unisensor",
-            job_class_name: "Full Stack Developer (Angular/Java)",
+            job_class_name: "Full Stack & Android Developer",
             location: "Ourgée",
             starting_date: "Nov 2022",
-            description: "Working on a web platform to help users visualize and understand the data coming from the analyzing devices ",
+            description: "Responsible for:<br>Maintaining and adding new features to 2 web applications built on Java (SpringBoot) & AngularJs, deployed on AWS." + 
+            "<br>Design and develop web application build on Java & Angular, deployed on AWS" + 
+            "<br>Designed and Developed an Android application from scratch using Kotlin and Android Jetpack compose.<br>Maintaining a desktop Javafx application and adding new features. ",
+            tech_stack: "Java, SpringBoot, Angular, Kotlin, Android Jetpack, JavaFX, AWS, SQL, MongoDB",
             finish_date: "Present"
         },
         {
@@ -79,43 +82,38 @@ export const exp = {
     ],
     skills: [
         { name: "Java", score: 5 },
-        { name: "Scrum", score: 4 },
-
-        { name: "Spring Boot", score: 5 },
-        { name: "Angular", score: 4 },
-
-        { name: "Python", score: 5 },
-        { name: "Angular JS", score: 4 },
-
-        { name: "Command line Inteface", score: 5 },
-        { name: "React", score: 4 },
-
-        { name: "JSON", score: 5 },
-        { name: "GIS technologies", score: 4 },
-
-        { name: "Kotlin", score: 4 },
-        { name: "C/C++", score: 3 },
-
-        { name: "SQL", score: 4 },
-        { name: "Deep learning", score: 3 },
-
         { name: "HTML/CSS", score: 4 },
+        { name: "Python", score: 5 },
+        { name: "Nodejs", score: 4 },
+        { name: "Spring Boot", score: 4 },
+        { name: "C/C++", score: 3 },
+        { name: "CI/CD", score: 4 },
+        { name: "React", score: 3 },
+        { name: "Kotlin/Android", score: 4 },
+        { name: "Deep learning", score: 3 },
+        { name: "Scrum", score: 4 },
         { name: "MVC Pattern", score: 3 },
+        { name: "AWS", score: 4 },
+        { name: "C#", score: 3 },
+        
+        
 
-        { name: "C#", score: 4 },
+        
+        { name: "Angular", score: 4 },
         { name: "CSS/Tailwind", score: 3 },
-
-        { name: "Javascript", score: 4 },
+        { name: "GIS technologies", score: 4 },
         { name: "R", score: 3 },
-
-        { name: "Node js", score: 4 },
+        { name: "Terminal Windows & linux", score: 4 },
+        { name: "Bootstrap", score: 2 },
+        { name: "SQL Postgresql/Mysql", score: 4 },
         { name: "XML", score: 2 },
-
-
-        { name: "UML", score: 4 },
-        { name: "Bootstrap", score: 1 },
-
-        { name: "Android Jetpack", score: 4 },
+        { name: "NoSQL", score: 4 },
+        { name: "Azure", score: 2 },
+        
+        {name: "UML", score: 4 },
+        
+        
+        
 
     ],
     languages: [
@@ -128,15 +126,13 @@ export const exp = {
         { name: "VS code ", score: 5 },
         { name: "Visual Studio", score: 4 },
 
-        { name: "MS Office", score: 5 },
+        { name: "Android Studio", score: 4 },
         { name: "Linux ", score: 4 },
 
-        { name: "Windows ", score: 5 },
         { name: "Atlassian / Jira ", score: 3 },
 
-
         { name: "Git / Git Flow ", score: 4 },
-        { name: "Latex ", score: 3 }
+        { name: "Docker ", score: 3 }
     ]
 };
 

@@ -1,11 +1,10 @@
 // craco.config.js
 module.exports = {
-    style: {
-      postcss: {
-        plugins: [
-          require('tailwindcss'),
-          require('autoprefixer'),
-        ],
-      },
+  // Specify your configuration overrides here
+  // For example:
+  webpack: {
+    configure: {
+      // Override webpack configuration options as needed
     },
-  }
+  },
+};

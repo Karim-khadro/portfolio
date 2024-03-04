@@ -62,7 +62,23 @@ export default function MainPage() {
         </div>
         <div className=' '>
           <h3 className=' font-bold mb-5'> {item.job_class_name} </h3>
-          <p className='opacity-80'> {item.description} </p>
+          <div className='opacity-80'>
+            {item.description.includes('<br>') ? (
+              <>
+                <p>{item.description.split('<br>')[0]}</p>
+                <ul className='list-disc'>
+                  {item.description.split('<br>').slice(1).map((line, index) => (
+                    <li key={index}> {line}</li>
+                  ))}
+                </ul>
+              </>
+            ) : (
+              <p>{item.description}</p>
+            )}
+          </div>
+
+          <br />
+          <p className='opacity-80 font-bold mb-3'> {item.tech_stack} </p>
           <div className='flex flex-col lg:flex-row list-none col-span-2 mt-6' >
             <img src={pin_loc} className="w-5 h-5 " alt="" />
             <span className='ml-2 text-main_green  opacity-80'>
