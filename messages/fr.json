@@ -130,6 +130,28 @@
     "heroTitle": "Je fais gagner des heures aux petites entreprises, avec des outils qu’elles comprennent",
     "heroSubtitle": "Sites internet, applications sur mesure, et intégration de l’IA dans des entreprises de 1 à 15 personnes. À Liège, et à distance. Prix affichés, langage clair, une seule personne du début à la fin.",
     "heroLocation": "Jemeppe, près de Liège — on peut se voir.",
+    "workflow": {
+      "live": "en direct",
+      "requestLabel": "Demande reçue",
+      "requestText": "« Comment répondre plus vite, sans perdre le ton de mon entreprise ? »",
+      "resultLabel": "Système utile"
+    },
+    "heroFooter": {
+      "sites": "Sites qui guident",
+      "apps": "Applications qui simplifient",
+      "ai": "IA qui laisse le dernier mot à l’humain"
+    },
+    "sections": {
+      "diagnosis": "Le point de départ",
+      "demo": "Une preuve, pas une promesse",
+      "services": "Une réponse à la fois",
+      "process": "Un cadre clair",
+      "cases": "Le travail compte",
+      "pricing": "Sans surprise",
+      "faq": "Les questions légitimes"
+    },
+    "diagnosisIntro": "Pas besoin d’un grand projet pour commencer. Il faut surtout rendre visible le temps qui s’échappe chaque semaine.",
+    "demoNote": "Vous gardez le contrôle.",
     "painTitle": "Vous vous reconnaissez peut-être ici",
     "painItems": {
       "one": "Vous répondez dix fois par jour à la même question, par téléphone et par messages.",

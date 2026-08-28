@@ -130,6 +130,28 @@
     "heroTitle": "I give small businesses their hours back, with tools they understand",
     "heroSubtitle": "Websites, custom applications, and AI integration for companies of 1 to 15 people. In Liège, and remotely across CET. Published prices, plain language, one person from start to finish.",
     "heroLocation": "Jemeppe, near Liège — and remote-friendly.",
+    "workflow": {
+      "live": "live",
+      "requestLabel": "Incoming request",
+      "requestText": "“How can I reply faster without losing my company’s voice?”",
+      "resultLabel": "Useful system"
+    },
+    "heroFooter": {
+      "sites": "Websites that guide",
+      "apps": "Web apps that simplify",
+      "ai": "AI where people keep the final say"
+    },
+    "sections": {
+      "diagnosis": "The starting point",
+      "demo": "Proof, not a promise",
+      "services": "One clear answer at a time",
+      "process": "A clear framework",
+      "cases": "The work matters",
+      "pricing": "No surprises",
+      "faq": "The questions worth asking"
+    },
+    "diagnosisIntro": "You do not need a huge project to start. You need to make the time leaking out of every week visible.",
+    "demoNote": "You stay in control.",
     "painTitle": "You may recognise yourself here",
     "painItems": {
       "one": "You answer the same question ten times a day, by phone and by message.",
