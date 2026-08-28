@@ -127,6 +127,47 @@
     "bandText": "Vous m’expliquez ce qui vous embête aujourd’hui. Je vous dis franchement ce que je ferais, ce que ça coûterait, et si vous avez vraiment besoin de moi."
   },
   "home": {
+    "next": {
+      "hero": {
+        "eyebrow": "L’IA utile pour les petites entreprises",
+        "title": "Moins d’administratif. Plus de temps pour votre métier.",
+        "intro": "Je transforme les tâches répétitives en outils IA simples, adaptés à votre façon de travailler.",
+        "primaryAction": "Voir comment ça marche",
+        "note": "Conçu à Liège, pour les équipes qui n’ont pas de temps à perdre.",
+        "visualLabel": "Une IA qui transforme les demandes en actions utiles",
+        "status": "système actif",
+        "visualFrom": "demande reçue",
+        "visualTo": "action utile",
+        "ticker": ["Répondre plus vite", "Réduire les tâches répétitives", "Garder la main"]
+      },
+      "intro": {
+        "eyebrow": "L’IA, expliquée simplement",
+        "title": "Ce n’est pas un robot à ajouter partout.",
+        "text": "C’est un assistant discret, placé là où votre équipe perd du temps. Il prépare, trie ou résume. Vous gardez les décisions importantes."
+      },
+      "story": {
+        "label": "Une méthode concrète",
+        "title": "Votre travail reste le point de départ.",
+        "summary": "On commence par une tâche précise. Puis on construit une aide qui respecte vos habitudes — pas l’inverse.",
+        "steps": {
+          "1": {"eyebrow": "Votre réalité", "title": "On choisit une tâche qui vous ralentit.", "text": "Messages clients, devis, documents ou suivi : on regarde ce qui revient chaque semaine.", "detail": "Pas de grand projet flou."},
+          "2": {"eyebrow": "L’aide IA", "title": "L’IA prépare le travail répétitif.", "text": "Elle classe une demande, propose une réponse ou met les bonnes informations au même endroit.", "detail": "Des règles claires, un résultat vérifiable."},
+          "3": {"eyebrow": "Votre contrôle", "title": "Votre équipe valide et avance.", "text": "Vous approuvez ce qui part, ajustez ce qui compte et gardez votre ton de voix.", "detail": "L’humain garde le dernier mot."}
+        },
+        "visual": {"message": "Un client demande un devis pour mardi.", "draft": "Brouillon prêt à relire", "approved": "Validé par votre équipe", "live": "prêt à envoyer"}
+      },
+      "fit": {
+        "eyebrow": "Là où ça aide vraiment",
+        "title": "Une IA qui s’intègre à votre activité.",
+        "intro": "Je cherche le gain le plus clair, puis je crée un outil que votre équipe a envie d’utiliser.",
+        "items": {"1": "Réponses clients plus rapides, sans répondre à l’aveugle.", "2": "Documents, demandes et informations enfin au bon endroit.", "3": "Des procédures simples, même quand la journée est chargée."}
+      },
+      "final": {
+        "eyebrow": "Le bon premier pas",
+        "title": "Parlons de la tâche qui vous fait perdre le plus de temps.",
+        "text": "En 20 minutes, je vous dis ce qui est réaliste, ce qu’il faut construire et ce que cela implique."
+      }
+    },
     "heroTitle": "Je fais gagner des heures aux petites entreprises, avec des outils qu’elles comprennent",
     "heroSubtitle": "Sites internet, applications sur mesure, et intégration de l’IA dans des entreprises de 1 à 15 personnes. À Liège, et à distance. Prix affichés, langage clair, une seule personne du début à la fin.",
     "heroLocation": "Jemeppe, près de Liège — on peut se voir.",

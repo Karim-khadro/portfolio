@@ -1,16 +1,6 @@
 import type {Metadata} from 'next';
 import {getTranslations, setRequestLocale} from 'next-intl/server';
-import {ReplyDrafter} from '@/components/demos/ReplyDrafter';
-import {
-  CaseStudyGrid,
-  CtaBand,
-  PackageGrid,
-  ProcessList,
-  TrustSection
-} from '@/components/sections';
-import {Accordion} from '@/components/ui/Accordion';
-import {Container, Section, SectionHeading} from '@/components/ui';
-import {getContent} from '@/content';
+import {AiScrollStory} from '@/components/home/AiScrollStory';
 import {Link} from '@/i18n/navigation';
 import type {Locale} from '@/i18n/routing';
 import {buildMetadata} from '@/lib/seo/metadata';
@@ -21,217 +11,107 @@ export async function generateMetadata({params}: Props): Promise<Metadata> {
   const {locale} = await params;
   const t = await getTranslations({locale, namespace: 'meta.home'});
 
-  return buildMetadata({
-    locale,
-    href: '/',
-    title: t('title'),
-    description: t('description')
-  });
-}
-
-function WorkflowPanel({
-  serviceTitle,
-  serviceTagline,
-  finalStep,
-  live,
-  requestLabel,
-  requestText,
-  resultLabel
-}: {
-  serviceTitle: string;
-  serviceTagline: string;
-  finalStep: string;
-  live: string;
-  requestLabel: string;
-  requestText: string;
-  resultLabel: string;
-}) {
-  return (
-    <div className="home-workflow" aria-label={serviceTitle}>
-      <div className="home-workflow__topline">
-        <span>01 / 03</span>
-        <span className="home-status"><i /> {live}</span>
-      </div>
-      <div className="home-workflow__request">
-        <span className="home-workflow__eyebrow">{requestLabel}</span>
-        <p>{requestText}</p>
-      </div>
-      <div className="home-workflow__line" aria-hidden="true"><span /></div>
-      <div className="home-workflow__result">
-        <span className="home-workflow__eyebrow">{resultLabel}</span>
-        <strong>{serviceTitle}</strong>
-        <p>{serviceTagline}</p>
-      </div>
-      <div className="home-workflow__check">
-        <span>✓</span>
-        <p>{finalStep}</p>
-      </div>
-    </div>
-  );
+  return buildMetadata({locale, href: '/', title: t('title'), description: t('description')});
 }
 
 export default async function HomePage({params}: Props) {
   const {locale} = await params;
   setRequestLocale(locale);
 
-  const t = await getTranslations({locale, namespace: 'home'});
+  const t = await getTranslations({locale, namespace: 'home.next'});
   const cta = await getTranslations({locale, namespace: 'cta'});
-  const common = await getTranslations({locale, namespace: 'common'});
-  const {faq, services} = getContent(locale);
-  const [aiService] = services;
-  const objections = faq.filter((item) => item.category === 'ai').slice(0, 4);
-  const priceFormatter = new Intl.NumberFormat(locale, {maximumFractionDigits: 0});
+  const steps = [1, 2, 3].map((index) => ({
+    eyebrow: t(`story.steps.${index}.eyebrow`),
+    title: t(`story.steps.${index}.title`),
+    text: t(`story.steps.${index}.text`),
+    detail: t(`story.steps.${index}.detail`)
+  }));
 
   return (
-    <div className="home-page">
-      <div className="home-scroll-progress" aria-hidden="true" />
+    <div className="ai-home">
+      <div className="ai-home__progress" aria-hidden="true" />
 
-      <section className="home-hero">
-        <Container className="home-hero__inner">
-          <div className="home-hero__copy">
-            <p className="home-kicker">{t('heroLocation')}</p>
-            <h1>{t('heroTitle')}</h1>
-            <p className="home-hero__intro">{t('heroSubtitle')}</p>
-            <div className="home-hero__actions">
-              <Link href="/rendez-vous" className="button button--light">
+      <section className="ai-hero">
+        <div className="ai-hero__glow" aria-hidden="true" />
+        <div className="ai-shell ai-hero__grid">
+          <div className="ai-hero__copy">
+            <p className="ai-eyebrow">{t('hero.eyebrow')}</p>
+            <h1>{t('hero.title')}</h1>
+            <p className="ai-hero__intro">{t('hero.intro')}</p>
+            <div className="ai-hero__actions">
+              <a href="#how-it-works" className="ai-button ai-button--bright">
+                {t('hero.primaryAction')} <span aria-hidden="true">↓</span>
+              </a>
+              <Link href="/rendez-vous" className="ai-button ai-button--outline">
                 {cta('bookCall')}
               </Link>
-              <Link href="/tarifs" className="button button--quiet">
-                {common('seePricing')}
-              </Link>
             </div>
+            <p className="ai-hero__note">{t('hero.note')}</p>
           </div>
 
-          <WorkflowPanel
-            serviceTitle={aiService.title}
-            serviceTagline={aiService.tagline}
-            finalStep={aiService.outcomes[2]}
-            live={t('workflow.live')}
-            requestLabel={t('workflow.requestLabel')}
-            requestText={t('workflow.requestText')}
-            resultLabel={t('workflow.resultLabel')}
-          />
-        </Container>
-        <div className="home-hero__footer" aria-hidden="true">
-          <span>{t('heroFooter.sites')}</span>
-          <span>{t('heroFooter.apps')}</span>
-          <span>{t('heroFooter.ai')}</span>
+          <div className="ai-orbit-card" aria-label={t('hero.visualLabel')}>
+            <div className="ai-orbit-card__topline">
+              <span>karim / ai</span>
+              <span className="ai-orbit-card__status"><i /> {t('hero.status')}</span>
+            </div>
+            <div className="ai-orbit-card__core">
+              <span className="ai-orbit-card__halo ai-orbit-card__halo--one" />
+              <span className="ai-orbit-card__halo ai-orbit-card__halo--two" />
+              <strong>AI</strong>
+              <span className="ai-orbit-card__signal ai-orbit-card__signal--one" />
+              <span className="ai-orbit-card__signal ai-orbit-card__signal--two" />
+            </div>
+            <div className="ai-orbit-card__bottom">
+              <span>{t('hero.visualFrom')}</span>
+              <b>{t('hero.visualTo')}</b>
+            </div>
+          </div>
+        </div>
+        <div className="ai-hero__ticker" aria-hidden="true">
+          <span>{t('hero.ticker.0')}</span><span>✦</span>
+          <span>{t('hero.ticker.1')}</span><span>✦</span>
+          <span>{t('hero.ticker.2')}</span><span>✦</span>
+          <span>{t('hero.ticker.0')}</span><span>✦</span>
         </div>
       </section>
 
-      <section className="home-diagnosis home-reveal">
-        <Container>
-          <div className="home-section-label">01 / {t('sections.diagnosis')}</div>
-          <div className="home-diagnosis__lead">
-            <SectionHeading title={t('painTitle')} />
-            <p>{t('diagnosisIntro')}</p>
-          </div>
-          <ol className="home-pain-list">
-            {(['one', 'two', 'three', 'four'] as const).map((key, index) => (
-              <li key={key}>
-                <span>0{index + 1}</span>
-                <p>{t(`painItems.${key}`)}</p>
-              </li>
-            ))}
-          </ol>
-        </Container>
-      </section>
-
-      <section id="demo" className="home-demo home-reveal">
-        <Container>
-          <div className="home-demo__heading">
-            <div>
-              <div className="home-section-label">02 / {t('sections.demo')}</div>
-              <SectionHeading title={t('demoTitle')} intro={t('demoIntro')} />
-            </div>
-            <span className="home-demo__note">{t('demoNote')}</span>
-          </div>
-          <div className="home-demo__surface">
-            <ReplyDrafter />
-          </div>
-        </Container>
-      </section>
-
-      <section className="home-offer home-reveal">
-        <Container>
-          <div className="home-offer__heading">
-            <div>
-              <div className="home-section-label">03 / {t('sections.services')}</div>
-              <SectionHeading title={t('servicesTitle')} intro={t('servicesIntro')} />
-            </div>
-            <Link href="/services" className="home-inline-link">
-              {common('seeAllServices')} <span aria-hidden="true">↗</span>
-            </Link>
-          </div>
-          <div className="home-service-list">
-            {services.map((service, index) => (
-              <article key={service.slug} className="home-service">
-                <span className="home-service__index">0{index + 1}</span>
-                <div>
-                  <h3>{service.title}</h3>
-                  <p>{service.tagline}</p>
-                </div>
-                <div className="home-service__details">
-                  <span>{service.typicalTimeline}</span>
-                  {service.startingPrice ? (
-                    <strong>
-                      {common('from')} {priceFormatter.format(service.startingPrice)} €
-                    </strong>
-                  ) : null}
-                </div>
-                <Link
-                  href={{pathname: '/services/[slug]', params: {slug: service.slug}}}
-                  className="home-service__link"
-                  aria-label={`${common('learnMore')} : ${service.title}`}
-                >
-                  <span aria-hidden="true">↗</span>
-                </Link>
-              </article>
-            ))}
-          </div>
-        </Container>
-      </section>
-
-      <Section className="home-process home-reveal">
-        <div className="home-section-label">04 / {t('sections.process')}</div>
-        <SectionHeading title={t('processTitle')} intro={t('processIntro')} />
-        <ProcessList locale={locale} />
-      </Section>
-
-      <Section className="home-cases home-reveal">
-        <div className="home-cases__heading">
-          <div>
-            <div className="home-section-label">05 / {t('sections.cases')}</div>
-            <SectionHeading title={t('proofTitle')} intro={t('proofIntro')} />
-          </div>
-          <Link href="/realisations" className="home-inline-link">
-            {common('seeCases')} <span aria-hidden="true">↗</span>
-          </Link>
+      <section className="ai-intro">
+        <div className="ai-shell ai-intro__grid">
+          <p className="ai-eyebrow">{t('intro.eyebrow')}</p>
+          <div><h2>{t('intro.title')}</h2><p>{t('intro.text')}</p></div>
         </div>
-        <CaseStudyGrid locale={locale} slugs={['ookto', 'unisensor-cloud']} />
-      </Section>
+      </section>
 
-      <Section className="home-pricing home-reveal">
-        <div className="home-section-label">06 / {t('sections.pricing')}</div>
-        <SectionHeading title={t('pricingTitle')} intro={t('pricingIntro')} />
-        <PackageGrid locale={locale} />
-        <Link href="/tarifs" className="home-inline-link home-pricing__link">
-          {common('seePricing')} <span aria-hidden="true">↗</span>
-        </Link>
-      </Section>
+      <AiScrollStory
+        label={t('story.label')}
+        title={t('story.title')}
+        summary={t('story.summary')}
+        steps={steps}
+        visual={{message: t('story.visual.message'), draft: t('story.visual.draft'), approved: t('story.visual.approved'), live: t('story.visual.live')}}
+      />
 
-      <Section className="home-faq home-reveal">
-        <div className="home-section-label">07 / {t('sections.faq')}</div>
-        <SectionHeading title={t('objectionsTitle')} />
-        <div className="mt-8">
-          <Accordion items={objections} />
+      <section className="ai-fit">
+        <div className="ai-shell">
+          <p className="ai-eyebrow">{t('fit.eyebrow')}</p>
+          <div className="ai-fit__heading"><h2>{t('fit.title')}</h2><p>{t('fit.intro')}</p></div>
+          <ul className="ai-fit__list">
+            {[1, 2, 3].map((item) => <li key={item}><span>0{item}</span><p>{t(`fit.items.${item}`)}</p></li>)}
+          </ul>
         </div>
-      </Section>
+      </section>
 
-      <div className="home-reveal">
-        <TrustSection locale={locale} />
-      </div>
-      <CtaBand locale={locale} />
+      <section className="ai-final">
+        <div className="ai-shell ai-final__inner">
+          <p className="ai-eyebrow">{t('final.eyebrow')}</p>
+          <h2>{t('final.title')}</h2>
+          <p>{t('final.text')}</p>
+          <div className="ai-final__actions">
+            <Link href="/rendez-vous" className="ai-button ai-button--bright">{cta('bookCall')} <span aria-hidden="true">↗</span></Link>
+            <Link href="/contact" className="ai-text-link">{cta('contact')} <span aria-hidden="true">↗</span></Link>
+          </div>
+          <p className="ai-final__note">{cta('callNote')}</p>
+        </div>
+      </section>
     </div>
   );
 }

@@ -127,6 +127,47 @@
     "bandText": "You explain what is bothering you today. I tell you honestly what I would do, what it would cost, and whether you actually need me."
   },
   "home": {
+    "next": {
+      "hero": {
+        "eyebrow": "Useful AI for small businesses",
+        "title": "Less admin. More time for the work that matters.",
+        "intro": "I turn repetitive tasks into simple AI tools that fit the way your business already works.",
+        "primaryAction": "See how it works",
+        "note": "Built in Liège, for teams without time to waste.",
+        "visualLabel": "AI that turns incoming requests into useful action",
+        "status": "system active",
+        "visualFrom": "request received",
+        "visualTo": "useful action",
+        "ticker": ["Reply faster", "Reduce repeat work", "Keep control"]
+      },
+      "intro": {
+        "eyebrow": "AI, in plain language",
+        "title": "It is not a robot to add everywhere.",
+        "text": "It is a quiet assistant, placed where your team loses time. It prepares, sorts or summarises. You keep the important decisions."
+      },
+      "story": {
+        "label": "A practical method",
+        "title": "Your work stays the starting point.",
+        "summary": "We begin with one clear task. Then we build support that respects your habits — not the other way around.",
+        "steps": {
+          "1": {"eyebrow": "Your reality", "title": "We pick the task that slows you down.", "text": "Client messages, quotes, documents or follow-up: we look at what repeats every week.", "detail": "No vague, oversized project."},
+          "2": {"eyebrow": "AI support", "title": "AI prepares the repetitive work.", "text": "It sorts an enquiry, suggests a response or puts the right information in one place.", "detail": "Clear rules, a result you can check."},
+          "3": {"eyebrow": "Your control", "title": "Your team approves and moves on.", "text": "You approve what goes out, adjust what matters and keep your own voice.", "detail": "People keep the final say."}
+        },
+        "visual": {"message": "A client needs a quote for Tuesday.", "draft": "Draft ready to review", "approved": "Approved by your team", "live": "ready to send"}
+      },
+      "fit": {
+        "eyebrow": "Where it really helps",
+        "title": "AI that fits into your business.",
+        "intro": "I find the clearest time-saving opportunity, then create a tool your team actually wants to use.",
+        "items": {"1": "Faster client replies, without answering blindly.", "2": "Documents, requests and information finally in the right place.", "3": "Simple processes, even on a busy day."}
+      },
+      "final": {
+        "eyebrow": "A sensible first step",
+        "title": "Let’s talk about the task that wastes the most of your time.",
+        "text": "In 20 minutes, I will tell you what is realistic, what needs building and what it involves."
+      }
+    },
     "heroTitle": "I give small businesses their hours back, with tools they understand",
     "heroSubtitle": "Websites, custom applications, and AI integration for companies of 1 to 15 people. In Liège, and remotely across CET. Published prices, plain language, one person from start to finish.",
     "heroLocation": "Jemeppe, near Liège — and remote-friendly.",
