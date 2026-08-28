@@ -1,4 +1,4 @@
-import {Fraunces, Inter} from 'next/font/google';
+import {Bricolage_Grotesque, Manrope} from 'next/font/google';
 
 /**
  * next/font downloads these at build time and serves them from our own origin —
@@ -6,15 +6,14 @@ import {Fraunces, Inter} from 'next/font/google';
  * third-party connection. It also fixes the old site's bug, where two font
  * families were declared in tailwind.config.js and never actually loaded.
  */
-export const body = Inter({
+export const body = Manrope({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-body'
 });
 
-export const display = Fraunces({
+export const display = Bricolage_Grotesque({
   subsets: ['latin'],
   display: 'swap',
-  weight: ['400', '600'],
   variable: '--font-display'
 });

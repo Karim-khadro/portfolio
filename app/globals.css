@@ -14,19 +14,19 @@
   --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-display), Georgia, 'Times New Roman', serif;
 
-  --color-paper: #faf8f5;
-  --color-surface: #ffffff;
-  --color-surface-warm: #f3efe8;
-  --color-line: #e3ddd2;
-  --color-ink: #1b1a17;
-  --color-ink-soft: #4d4a44;
-  --color-ink-muted: #726d64;
+  --color-paper: #f5f2ea;
+  --color-surface: #fbfaf6;
+  --color-surface-warm: #e6e0d4;
+  --color-line: #cbc7bd;
+  --color-ink: #101a2d;
+  --color-ink-soft: #46536a;
+  --color-ink-muted: #68758a;
 
-  --color-accent: #0f5f5c;
-  --color-accent-hover: #0b4a48;
-  --color-accent-soft: #e2efee;
-  --color-ochre: #a9631f;
-  --color-ochre-soft: #f7ecdf;
+  --color-accent: #101a2d;
+  --color-accent-hover: #1b2942;
+  --color-accent-soft: #d8fb70;
+  --color-ochre: #789d20;
+  --color-ochre-soft: #e8f8b5;
 
   --color-cv-bg: #0a192f;
   --color-cv-surface: #112240;
@@ -46,6 +46,12 @@
     color: var(--color-ink);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--color-accent-soft);
+    color: var(--color-ink);
   }
 
   /* A visible focus ring everywhere — the keyboard pass in §Verification
@@ -229,11 +235,11 @@
 /* Homepage — pared back to one clear promise and a scroll-led explanation. */
 @layer components {
   .ai-home {
-    --ai-ink: #101a2d;
-    --ai-ink-soft: #1b2942;
-    --ai-paper: #f5f2ea;
+    --ai-ink: var(--color-ink);
+    --ai-ink-soft: var(--color-accent-hover);
+    --ai-paper: var(--color-paper);
     --ai-muted: #aab4c5;
-    --ai-lime: #d8fb70;
+    --ai-lime: var(--color-accent-soft);
     --ai-lime-dim: #b6dd4f;
     overflow: clip;
     background: var(--ai-paper);

@@ -15,7 +15,13 @@ const labels: Record<string, string> = {
  * slugs (/fr/tarifs ↔ /en/pricing). Derives its options from routing.locales,
  * so a third language appears here with no change to this file.
  */
-export function LocaleSwitcher({locale}: {locale: Locale}) {
+export function LocaleSwitcher({
+  locale,
+  tone = 'light'
+}: {
+  locale: Locale;
+  tone?: 'light' | 'dark';
+}) {
   const router = useRouter();
   const pathname = usePathname();
   const params = useParams();
@@ -44,8 +50,8 @@ export function LocaleSwitcher({locale}: {locale: Locale}) {
             }}
             className={
               isCurrent
-                ? 'rounded px-2 py-1 text-sm font-semibold text-ink'
-                : 'rounded px-2 py-1 text-sm text-ink-muted transition-colors hover:text-accent'
+                ? `rounded-[0.2rem] px-2 py-1 text-sm font-semibold ${tone === 'dark' ? 'bg-accent-soft text-ink' : 'text-ink'}`
+                : `rounded-[0.2rem] px-2 py-1 text-sm transition-colors ${tone === 'dark' ? 'text-[#aab4c5] hover:text-paper' : 'text-ink-muted hover:text-ink'}`
             }
           >
             {labels[candidate] ?? candidate.toUpperCase()}

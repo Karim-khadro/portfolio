@@ -44,7 +44,7 @@ export function MobileNav({items, locale}: {items: NavItem[]; locale: Locale}) {
         onClick={() => setOpen((value) => !value)}
         aria-expanded={open}
         aria-controls="mobile-nav"
-        className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-line text-ink"
+        className="inline-flex h-11 w-11 items-center justify-center rounded-[0.35rem] border border-paper/30 text-paper"
       >
         <span className="sr-only">{open ? t('closeMenu') : t('openMenu')}</span>
         <svg
@@ -68,7 +68,7 @@ export function MobileNav({items, locale}: {items: NavItem[]; locale: Locale}) {
         <div
           id="mobile-nav"
           ref={panelRef}
-          className="fixed inset-x-0 bottom-0 top-[57px] z-50 overflow-y-auto border-t border-line bg-paper px-4 py-6"
+          className="fixed inset-x-0 bottom-0 top-[65px] z-50 overflow-y-auto border-t border-paper/15 bg-ink px-4 py-6 text-paper"
         >
           <nav aria-label={t('mainLabel')} className="flex flex-col gap-1">
             {items.map((item) => (
@@ -76,19 +76,19 @@ export function MobileNav({items, locale}: {items: NavItem[]; locale: Locale}) {
                 key={item.label}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className="rounded-md px-2 py-3 text-lg text-ink"
+                className="rounded-[0.35rem] px-2 py-3 text-lg text-paper transition-colors hover:bg-paper/5 hover:text-accent-soft"
               >
                 {item.label}
               </Link>
             ))}
           </nav>
 
-          <div className="mt-6 flex flex-col gap-4 border-t border-line pt-6">
-            <LocaleSwitcher locale={locale} />
+          <div className="mt-6 flex flex-col gap-4 border-t border-paper/15 pt-6">
+            <LocaleSwitcher locale={locale} tone="dark" />
             <Link
               href="/rendez-vous"
               onClick={() => setOpen(false)}
-              className="rounded-md bg-accent px-4 py-3 text-center font-medium text-white"
+              className="rounded-[0.4rem] bg-accent-soft px-4 py-3 text-center font-semibold text-ink"
             >
               {t('bookCall')}
             </Link>
