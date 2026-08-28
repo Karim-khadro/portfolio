@@ -1,0 +1,433 @@
+{
+  "meta": {
+    "siteTitle": "Karim Khadro",
+    "tagline": "Websites, web apps and AI for small businesses — Liège, Belgium",
+    "home": {
+      "title": "AI and web development for small businesses — Belgium",
+      "description": "I integrate AI into small businesses and build websites and web applications end to end. Published prices, plain language, one person from the first call to go-live."
+    },
+    "services": {
+      "title": "Services",
+      "description": "AI diagnostic, custom assistant, website and web application: four offers with a written scope, a starting price and a stated timeline."
+    },
+    "pricing": {
+      "title": "Pricing",
+      "description": "The prices, what is included, what is not, payment terms and my real capacity. No \"contact us for a quote\"."
+    },
+    "process": {
+      "title": "How we work together",
+      "description": "Six steps from the twenty-minute call to go-live: how long each takes, and what it asks of you."
+    },
+    "cases": {
+      "title": "Case studies",
+      "description": "What I have built, presented honestly: my own product, and work delivered in employed roles."
+    },
+    "about": {
+      "title": "About",
+      "description": "Who I am, my availability commitments, and what I will not sell you."
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "description": "The objections people actually raise about AI, pricing, GDPR and availability — with the answers."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Describe what you need in a few sentences. I reply within 24 working hours, usually with two or three questions and a price range."
+    },
+    "booking": {
+      "title": "Book a call",
+      "description": "Twenty free minutes to find out whether I am the right person for your project."
+    },
+    "demos": {
+      "title": "AI demos",
+      "description": "Two demos running live on this site, no signup: drafting a customer reply, and asking a question about this site."
+    },
+    "guides": {
+      "title": "Guides",
+      "description": "What a website costs in Belgium, what AI actually does in a small company, and where your data goes. Undated, because it does not expire."
+    },
+    "cv": {
+      "title": "CV — Karim Khadro",
+      "description": "Full stack and cloud developer: Java/Spring Boot, Angular, Next.js, Kotlin, and sole ownership of a production AWS infrastructure."
+    },
+    "legal": {
+      "title": "Legal notice",
+      "description": "Site publisher, company number, hosting provider and terms of use."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "description": "What I collect, why, how long I keep it, who it goes to, and your rights."
+    },
+    "thanks": {
+      "title": "Message received",
+      "description": "Your message has arrived."
+    },
+    "notFound": {
+      "title": "Page not found",
+      "description": "This page does not exist, or no longer does."
+    }
+  },
+  "nav": {
+    "services": "Services",
+    "aiForSmb": "AI for small business",
+    "cases": "Case studies",
+    "pricing": "Pricing",
+    "bookCall": "Book a call",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainLabel": "Main navigation",
+    "skipToContent": "Skip to content"
+  },
+  "footer": {
+    "about": "About",
+    "process": "How we work",
+    "faq": "FAQ",
+    "guides": "Guides",
+    "demos": "AI demos",
+    "contact": "Contact",
+    "cv": "My CV (recruiters)",
+    "legal": "Legal notice",
+    "privacy": "Privacy",
+    "sections": {
+      "offer": "What I do",
+      "understand": "To understand",
+      "practical": "Practical"
+    },
+    "location": "Jemeppe (Liège), Belgium",
+    "coverage": "I work across the Liège area — Seraing, Herstal, Ans, Flémalle, Huy, Verviers — and remotely, in CET hours.",
+    "vatNotice": "VAT exempt under article 56bis of the Belgian VAT Code.",
+    "rights": "Site built by Karim Khadro.",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "common": {
+    "from": "From",
+    "perMonth": "per month",
+    "included": "What is included",
+    "notIncluded": "What is not included",
+    "timeline": "Timeline",
+    "forWho": "Who it is for",
+    "outcomes": "What you get out of it",
+    "deliverables": "What you receive",
+    "learnMore": "Learn more",
+    "seeAllServices": "See all services",
+    "seePricing": "See pricing",
+    "seeCases": "See case studies",
+    "backToTop": "Back to top",
+    "readingTime": "{minutes} min read",
+    "technicalDetail": "Technical detail",
+    "loading": "One moment…"
+  },
+  "cta": {
+    "bookCall": "Book a 20-min call",
+    "bookDiagnostic": "Book the diagnostic",
+    "contact": "Describe my project",
+    "callNote": "Twenty minutes, free, no commitment. If I am not the right person, I will say so.",
+    "bandTitle": "Twenty minutes is enough to know whether this is worth doing",
+    "bandText": "You explain what is bothering you today. I tell you honestly what I would do, what it would cost, and whether you actually need me."
+  },
+  "home": {
+    "heroTitle": "I give small businesses their hours back, with tools they understand",
+    "heroSubtitle": "Websites, custom applications, and AI integration for companies of 1 to 15 people. In Liège, and remotely across CET. Published prices, plain language, one person from start to finish.",
+    "heroLocation": "Jemeppe, near Liège — and remote-friendly.",
+    "painTitle": "You may recognise yourself here",
+    "painItems": {
+      "one": "You answer the same question ten times a day, by phone and by message.",
+      "two": "You copy information from one document into another, in the evening, after the working day.",
+      "three": "Your website brings you no customers, or you do not have one.",
+      "four": "People have been talking to you about AI for two years and nobody has explained what it would do in your company."
+    },
+    "servicesTitle": "Four ways to start",
+    "servicesIntro": "Every offer has a written scope, a starting price and a timeline. What is not included is written down too.",
+    "demoTitle": "Try it, right now",
+    "demoIntro": "The best way to understand what this does is to use it. No signup, running live on this page.",
+    "processTitle": "How it goes",
+    "processIntro": "Six steps, announced in advance. You always know where your project stands.",
+    "proofTitle": "What I have already built",
+    "proofIntro": "My own product, and work delivered in employed roles — presented as exactly that.",
+    "pricingTitle": "The prices, published",
+    "pricingIntro": "You should be able to tell whether this fits your budget without calling me.",
+    "objectionsTitle": "The questions everyone asks",
+    "trustTitle": "No testimonials yet",
+    "trustText": "I am starting out as a freelancer. In the meantime, here is what you can verify yourself: my code on GitHub, my career on LinkedIn, my company number, and the demos running live on this site.",
+    "guaranteeTitle": "What I guarantee instead",
+    "guarantees": {
+      "one": "30 days of fixes after go-live, at no extra cost.",
+      "two": "The code, the domain and the accounts are in your name. No lock-in.",
+      "three": "If the first deliverable does not suit you, you do not pay the balance.",
+      "four": "I reply within 24 working hours."
+    }
+  },
+  "services": {
+    "pageTitle": "What I do",
+    "pageIntro": "Four offers. The first one exists to help you choose between the other three.",
+    "problemTitle": "The problem",
+    "relatedTitle": "The matching package",
+    "casesTitle": "On this subject, I have already done",
+    "faqTitle": "Questions about this service"
+  },
+  "aiPage": {
+    "definitionTitle": "What an AI model is, in one sentence",
+    "definition": "An AI model is software that reads text and writes text. It is very good at drafting, summarising, classifying and retrieving information. It is not good at arithmetic, at deciding for you, or at guaranteeing it is not wrong. An \"agent\" is simply that software given permission to take a few precise actions — send a draft, create a record, fill in a document — within limits we set together.",
+    "useCasesTitle": "Six concrete situations",
+    "useCasePain": "The problem",
+    "useCaseDoes": "What the tool does",
+    "useCaseChanges": "What it changes",
+    "wontSellTitle": "What I will not sell you",
+    "dataTitle": "Your data",
+    "dataIntro": "The question I get most. Here is the full answer, without evasion.",
+    "dataStays": "What stays with you",
+    "dataStaysText": "Your files, your database and your backups go nowhere. The tool fetches an extract at the moment it needs one.",
+    "dataEu": "What goes to a European service",
+    "dataEuText": "The hosting of the tool itself, its technical logs and operational data: in Europe, wherever the feature allows.",
+    "dataUs": "What goes to a model provider",
+    "dataUsText": "The question asked and the document extracts needed to answer it. Nothing else. Your data is not used to train a model, and a processing agreement is signed.",
+    "dataAlternative": "The alternatives",
+    "dataAlternativeText": "Filter personal data before sending, send only the business context, or run a smaller model on your own hardware when the task allows it. We discuss this before writing code, not after.",
+    "credibilityLine": "In 2019, my first real project was precisely about filtering private data before it reached a cloud chatbot. The question of where your data goes is not one I am discovering today.",
+    "honestyNote": "One honest clarification: \"hosted in Europe\" is defensible, \"your data never leaves the EU\" is not, the moment a US model is called. Be wary of anyone promising you the second sentence."
+  },
+  "pricing": {
+    "pageTitle": "Pricing",
+    "pageIntro": "Starting prices are published. A precise quote always follows a conversation, because a price without a scope means nothing.",
+    "capacityTitle": "My capacity, stated honestly",
+    "capacityText": "I take two projects at a time, maximum. When I am full I say so and give you a date.",
+    "termsTitle": "Terms",
+    "terms": {
+      "payment": "40% on order, 60% on delivery, payable within 15 days.",
+      "vat": "No VAT on my invoices (Belgian franchise scheme): the published price is the price paid. For a customer who cannot reclaim VAT, that is 21% less than an agency.",
+      "floor": "I do not take projects below €1,500. If the budget is tight we reduce scope — three pages at €1,400 — never quality.",
+      "addons": "The add-ons below can be attached to any package."
+    },
+    "addonsTitle": "Add-ons",
+    "notIncludedTitle": "What is never included, whatever the package",
+    "notIncluded": {
+      "one": "Professional photography and logo design.",
+      "two": "Third-party licences, subscriptions and content purchases.",
+      "three": "Writing every word of your copy without any input from you.",
+      "four": "AI model API costs, billed at actual usage and at cost."
+    }
+  },
+  "process": {
+    "pageTitle": "How we work together",
+    "pageIntro": "Nothing is left to chance, and nothing is a surprise. Here are the six steps.",
+    "duration": "Duration",
+    "yourEffort": "What it asks of you"
+  },
+  "cases": {
+    "pageTitle": "Case studies",
+    "honestyNote": "I am starting out as a freelancer. The projects below are either my own product or work delivered in employed roles — I present them as such, without passing them off as freelance engagements, and without disclosing confidential information.",
+    "labels": {
+      "personnel": "Personal project",
+      "en-poste": "In employment",
+      "client": "Client"
+    },
+    "oneLiner": "In one line",
+    "situation": "The situation",
+    "constraint": "The constraint",
+    "whatIDid": "What I did",
+    "outcome": "The outcome",
+    "buyerTranslation": "What this means for your project",
+    "role": "Role",
+    "stack": "Technologies"
+  },
+  "about": {
+    "commitmentsTitle": "My commitments, in writing",
+    "wontSellTitle": "What I will not sell you",
+    "humanTitle": "Outside work",
+    "photoAlt": "Portrait of Karim Khadro"
+  },
+  "faq": {
+    "pageTitle": "Frequently asked questions",
+    "pageIntro": "The objections people actually raise. The answers are the same as on the phone.",
+    "categories": {
+      "ai": "AI",
+      "pricing": "Pricing and payment",
+      "process": "How it works",
+      "legal": "Legal and GDPR",
+      "tech": "Technical"
+    }
+  },
+  "contact": {
+    "pageTitle": "Let’s talk about your project",
+    "pageIntro": "Describe what you need in a few sentences. I reply within 24 working hours, usually with two or three questions and a price range.",
+    "orBook": "Prefer to talk? Book twenty minutes.",
+    "directTitle": "Direct",
+    "email": "Email",
+    "form": {
+      "name": "Your name",
+      "company": "Your company name",
+      "companyOptional": "optional",
+      "email": "Email",
+      "phone": "Phone",
+      "phoneHint": "the fastest way for me to reply",
+      "need": "What do you need?",
+      "needOptions": {
+        "newSite": "A new website",
+        "redoSite": "Rebuild my website",
+        "internalApp": "An internal application or tool",
+        "automate": "Automate a repetitive task",
+        "aiUnsure": "AI, but I don’t know how yet",
+        "other": "Something else"
+      },
+      "message": "Tell me in a few sentences",
+      "messagePlaceholder": "No technical terms needed. Describe what is bothering you today.",
+      "budget": "Budget in mind",
+      "budgetOptions": {
+        "under2k": "Under €2,000",
+        "2to5k": "€2,000 to €5,000",
+        "5to15k": "€5,000 to €15,000",
+        "over15k": "Over €15,000",
+        "unsure": "I don’t know yet, advise me"
+      },
+      "budgetNote": "This lets me propose something realistic. It is not a trap.",
+      "timing": "When?",
+      "timingOptions": {
+        "asap": "As soon as possible",
+        "1to3": "In 1 to 3 months",
+        "later": "Later"
+      },
+      "consent": "I agree that my information may be used to contact me about my enquiry.",
+      "consentLink": "See the privacy policy",
+      "submit": "Send my enquiry",
+      "submitting": "Sending…",
+      "required": "required",
+      "errors": {
+        "name": "Please tell me your name.",
+        "email": "That email address does not look valid.",
+        "message": "A few sentences is plenty, but I do need a few.",
+        "consent": "Without this agreement I cannot get back to you.",
+        "tooFast": "Please take a moment to fill in the form.",
+        "rateLimited": "Too many enquiries from this device. Try again in an hour, or call me.",
+        "generic": "Sending failed. Write to me directly at {email} — that will work."
+      }
+    }
+  },
+  "thanks": {
+    "title": "Received.",
+    "text": "I reply within 24 working hours, usually with two or three questions and a price range.",
+    "bookInstead": "Want to move faster? Book twenty minutes directly.",
+    "backHome": "Back to home"
+  },
+  "booking": {
+    "pageTitle": "Book a 20-minute call",
+    "pageIntro": "Free, no commitment. You explain your situation, I tell you honestly what I would do — and if I am not the right person, I point you elsewhere.",
+    "gateTitle": "Show the calendar (Cal.com)",
+    "gateNotice": "The calendar is provided by Cal.com and sets its own cookies. It only loads if you click. Otherwise just write to me — it is just as fast.",
+    "gateButton": "Show the calendar",
+    "gateAlternative": "Or use the form instead",
+    "expect": "What we will do in those 20 minutes",
+    "expectItems": {
+      "one": "You describe what is bothering you today, no technical terms needed.",
+      "two": "I ask three or four questions and give you a price range.",
+      "three": "We decide what happens next: a diagnostic, a quote, or nothing at all."
+    }
+  },
+  "demos": {
+    "pageTitle": "Two demos, actually running",
+    "pageIntro": "No signup, no email required. Two conversation turns per demo, then let’s talk properly.",
+    "replyDrafter": {
+      "title": "Answer this customer in 30 seconds",
+      "intro": "Paste a message from a customer, pick your trade and a tone. You get a ready-to-send reply, plus what the tool understood.",
+      "inputLabel": "The incoming message",
+      "inputPlaceholder": "Hi, my car has been making a strange noise when braking since Monday, it’s a 2015 Golf. Could you take it this week and roughly what would it cost?",
+      "sampleButton": "Use an example",
+      "tradeLabel": "Your trade",
+      "toneLabel": "Tone",
+      "trades": {
+        "garage": "Garage",
+        "bakery": "Bakery / restaurant",
+        "construction": "Construction",
+        "practice": "Practice / physio",
+        "retail": "Retail"
+      },
+      "tones": {
+        "warm": "Warm",
+        "neutral": "Neutral and professional",
+        "brief": "Short and direct"
+      },
+      "submit": "Draft the reply",
+      "understoodTitle": "What the tool understood",
+      "replyTitle": "The suggested reply",
+      "caption": "Here, the tool knows nothing about your company. At your place, it knows your prices, your availability and your past quotes."
+    },
+    "siteAssistant": {
+      "title": "Ask me a question about this site",
+      "intro": "This assistant answers only from the content of this site: the offers, the prices, the process, what I do not do. When it does not know, it says so and hands over.",
+      "inputLabel": "Your question",
+      "inputPlaceholder": "How much does a website cost, and how long does it take?",
+      "sampleButton": "Use an example",
+      "submit": "Ask",
+      "sources": "Where this answer comes from",
+      "handoff": "I can’t answer that — write to him, he replies within 24 hours.",
+      "handoffButton": "Ask Karim directly"
+    },
+    "turnsLeft": "{count, plural, =0 {Demo finished} =1 {One question left} other {# questions left}}",
+    "finishedTitle": "Demo finished — let’s talk about your case",
+    "finishedText": "Two turns is the limit here. At your place there is none: the tool knows your data and works all day.",
+    "fallbackBadge": "recorded demo — try again in a few minutes",
+    "errorBadge": "the live demo is briefly unavailable — here is a recorded example",
+    "privacyNotice": "Your message is sent to the Anthropic API to generate the reply. Do not enter personal or confidential data.",
+    "explainerTitle": "Here is what the AI received",
+    "explainerText": "No magic: the tool receives a written instruction, your message, and nothing else. It has no access to a database, to a mailbox, or to the internet."
+  },
+  "guides": {
+    "pageTitle": "Guides",
+    "pageIntro": "The answers I give on the phone, written down once. Undated, because they do not expire.",
+    "ctaTitle": "A question about your specific case?",
+    "ctaText": "Twenty minutes on the phone beats ten pages of guide."
+  },
+  "cv": {
+    "pageTitle": "Karim Khadro — CV",
+    "audienceNote": "This page is for recruiters and technical teams. If you are looking for someone to build something for your business, the services side is here.",
+    "servicesLink": "See the services",
+    "downloadPdf": "Download the CV (PDF)",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "languages": "Languages",
+    "tools": "Tools",
+    "sideProjects": "Side projects",
+    "stack": "Technologies"
+  },
+  "legal": {
+    "pageTitle": "Legal notice",
+    "editorTitle": "Site publisher",
+    "editorText": "Karim Khadro, self-employed, natural person. {city}, Belgium. Full address available on request.",
+    "bceLabel": "Company number (BCE)",
+    "contactLabel": "Contact",
+    "vatTitle": "VAT",
+    "hostingTitle": "Hosting",
+    "hostingText": "This site is hosted by Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA. Server functions run in the Frankfurt region (Germany).",
+    "ipTitle": "Intellectual property",
+    "ipText": "The text and images on this site belong to Karim Khadro unless stated otherwise. The site’s source code is publicly available on GitHub.",
+    "liabilityTitle": "Liability",
+    "liabilityText": "The information on this site is indicative. Published prices are starting prices and do not constitute a contractual offer: only a signed quote is binding."
+  },
+  "privacy": {
+    "pageTitle": "Privacy policy",
+    "intro": "Short version: I collect only what I need to reply to you, I sell nothing, and I delete on request.",
+    "controllerTitle": "Who is the data controller",
+    "controllerText": "Karim Khadro, {city}, Belgium — company number {bce}. You can reach me at {email}.",
+    "dataTitle": "What I collect, and why",
+    "dataForm": "Contact form: name, company, email, phone, budget, timing and your message. Legal basis: your consent. Purpose: replying to you and preparing a proposal.",
+    "dataBooking": "Booking: if you load the calendar, Cal.com processes the information needed for the booking, under its own policy.",
+    "dataDemos": "AI demos: your message is sent to Anthropic to produce the reply. Message content is not stored; only token counts and status codes are recorded.",
+    "dataAnalytics": "Analytics: cookieless audience measurement with no personal identifier, via Vercel Analytics.",
+    "retentionTitle": "For how long",
+    "retentionText": "Enquiries received through the form are kept for 24 months in my mailbox, then deleted.",
+    "processorsTitle": "Who receives the data",
+    "processorsText": "Vercel (hosting, Frankfurt region), Resend (email delivery), Cal.com (bookings, only if you load the calendar), Cloudflare (bot protection), Upstash (rate limiting), Anthropic (AI demos only). No data is ever sold.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "This site sets no advertising or analytics cookies. Only two technical cookies exist: your language choice, and a session cookie for the demos. That is why there is no consent banner to click through.",
+    "rightsTitle": "Your rights",
+    "rightsText": "Access, rectification, erasure, restriction, objection and portability. Write to {email} and I handle the request within 30 days. You may also lodge a complaint with the Belgian Data Protection Authority (autoriteprotectiondonnees.be)."
+  },
+  "notFound": {
+    "title": "This page does not exist",
+    "text": "The link may be old: this site was completely rebuilt. Here is where to pick things up.",
+    "home": "Home",
+    "services": "The services",
+    "contact": "Contact me"
+  }
+}

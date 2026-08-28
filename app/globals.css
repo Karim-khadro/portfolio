@@ -1,0 +1,112 @@
+@import 'tailwindcss';
+
+/*
+ * One token set, two skins.
+ *
+ * Services track: light-first, warm neutral paper, deep-teal accent.
+ * /cv: the navy + mint portfolio palette, kept deliberately so the two
+ * audiences can see they are in different places.
+ *
+ * Light-only on purpose — dark mode doubles design QA across ~15 pages and
+ * converts nobody. The variables make it a later drop-in.
+ */
+@theme {
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display), Georgia, 'Times New Roman', serif;
+
+  --color-paper: #faf8f5;
+  --color-surface: #ffffff;
+  --color-surface-warm: #f3efe8;
+  --color-line: #e3ddd2;
+  --color-ink: #1b1a17;
+  --color-ink-soft: #4d4a44;
+  --color-ink-muted: #726d64;
+
+  --color-accent: #0f5f5c;
+  --color-accent-hover: #0b4a48;
+  --color-accent-soft: #e2efee;
+  --color-ochre: #a9631f;
+  --color-ochre-soft: #f7ecdf;
+
+  --color-cv-bg: #0a192f;
+  --color-cv-surface: #112240;
+  --color-cv-line: #1d3557;
+  --color-cv-accent: #64ffda;
+  --color-cv-text: #ccd6f6;
+  --color-cv-muted: #8892b0;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* A visible focus ring everywhere — the keyboard pass in §Verification
+     depends on this rather than per-component styling. */
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  .cv-skin :focus-visible {
+    outline-color: var(--color-cv-accent);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@utility prose-copy {
+  & p {
+    margin-block: --spacing(4);
+    line-height: 1.7;
+  }
+
+  & h2 {
+    font-family: var(--font-display);
+    font-size: --spacing(7);
+    margin-block: --spacing(8) --spacing(3);
+    font-weight: 600;
+  }
+
+  & h3 {
+    font-size: --spacing(5);
+    margin-block: --spacing(6) --spacing(2);
+    font-weight: 600;
+  }
+
+  & ul {
+    list-style: disc;
+    padding-inline-start: --spacing(5);
+    margin-block: --spacing(4);
+  }
+
+  & li {
+    margin-block: --spacing(1);
+  }
+
+  & a {
+    color: var(--color-accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}

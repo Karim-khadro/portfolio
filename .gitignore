@@ -105,3 +105,13 @@ dist
 
 # TernJS port file
 .tern-port
+.tokensave
+
+# Vercel
+.vercel
+
+# Next generated types
+next-env.d.ts
+
+# Local agent tooling
+.claude/

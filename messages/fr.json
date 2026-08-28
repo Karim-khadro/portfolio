@@ -1,0 +1,433 @@
+{
+  "meta": {
+    "siteTitle": "Karim Khadro",
+    "tagline": "Sites, applications web et IA pour petites entreprises — Liège",
+    "home": {
+      "title": "L’IA et le web pour les petites entreprises — Liège",
+      "description": "J’intègre l’IA dans les petites entreprises de la région de Liège, et je construis des sites et des applications web de A à Z. Prix affichés, langage clair, une seule personne du premier appel à la mise en ligne."
+    },
+    "services": {
+      "title": "Services",
+      "description": "Diagnostic IA, assistant sur mesure, site vitrine et application web : quatre offres avec un périmètre écrit, un prix de départ et un délai annoncé."
+    },
+    "pricing": {
+      "title": "Tarifs",
+      "description": "Les prix, ce qui est compris, ce qui ne l’est pas, les conditions de paiement et ma capacité réelle. Sans « sur devis »."
+    },
+    "process": {
+      "title": "Comment on travaille ensemble",
+      "description": "Les six étapes, de l’appel de vingt minutes à la mise en ligne : ce que ça dure, et ce que ça vous demande à vous."
+    },
+    "cases": {
+      "title": "Réalisations",
+      "description": "Ce que j’ai construit, présenté honnêtement : mon propre produit, et des projets menés dans le cadre de mes emplois."
+    },
+    "about": {
+      "title": "À propos",
+      "description": "Qui je suis, mes engagements de disponibilité, et ce que je ne vous vendrai pas."
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "description": "Les objections qu’on me pose vraiment sur l’IA, les prix, le RGPD et la disponibilité — avec les réponses."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Décrivez votre besoin en quelques phrases. Je réponds sous 24 heures ouvrables, en général avec deux ou trois questions et une fourchette de prix."
+    },
+    "booking": {
+      "title": "Réserver un appel",
+      "description": "Vingt minutes, gratuites, pour savoir si je suis la bonne personne pour votre projet."
+    },
+    "demos": {
+      "title": "Démos d’IA",
+      "description": "Deux démonstrations qui tournent en direct sur ce site, sans inscription : rédiger une réponse client, et poser une question sur ce site."
+    },
+    "guides": {
+      "title": "Guides",
+      "description": "Ce que coûte un site en Belgique, ce que l’IA fait vraiment dans une PME, et où partent vos données. Sans date, parce que ça ne périme pas."
+    },
+    "cv": {
+      "title": "CV — Karim Khadro",
+      "description": "Développeur full stack et cloud : Java/Spring Boot, Angular, Next.js, Kotlin, et une infrastructure AWS de production en responsabilité unique."
+    },
+    "legal": {
+      "title": "Mentions légales",
+      "description": "Éditeur du site, numéro d’entreprise, hébergeur et conditions d’utilisation."
+    },
+    "privacy": {
+      "title": "Confidentialité",
+      "description": "Ce que je collecte, pourquoi, combien de temps je le garde, à qui je le transmets, et vos droits."
+    },
+    "thanks": {
+      "title": "Message reçu",
+      "description": "Votre message est arrivé."
+    },
+    "notFound": {
+      "title": "Page introuvable",
+      "description": "Cette page n’existe pas ou n’existe plus."
+    }
+  },
+  "nav": {
+    "services": "Services",
+    "aiForSmb": "IA pour PME",
+    "cases": "Réalisations",
+    "pricing": "Tarifs",
+    "bookCall": "Réserver un appel",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "mainLabel": "Navigation principale",
+    "skipToContent": "Aller au contenu"
+  },
+  "footer": {
+    "about": "À propos",
+    "process": "Comment on travaille",
+    "faq": "Questions fréquentes",
+    "guides": "Guides",
+    "demos": "Démos d’IA",
+    "contact": "Contact",
+    "cv": "Mon CV (recruteurs)",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "sections": {
+      "offer": "Ce que je fais",
+      "understand": "Pour comprendre",
+      "practical": "Pratique"
+    },
+    "location": "Jemeppe (Liège), Belgique",
+    "coverage": "Je travaille dans la région liégeoise : Seraing, Herstal, Ans, Flémalle, Huy, Verviers — et à distance.",
+    "vatNotice": "Assujetti exempté de la TVA en vertu de l’article 56bis du Code de la TVA.",
+    "rights": "Site construit par Karim Khadro.",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "common": {
+    "from": "À partir de",
+    "perMonth": "par mois",
+    "included": "Ce qui est compris",
+    "notIncluded": "Ce qui n’est pas compris",
+    "timeline": "Délai",
+    "forWho": "Pour qui",
+    "outcomes": "Ce que vous y gagnez",
+    "deliverables": "Ce que vous recevez",
+    "learnMore": "En savoir plus",
+    "seeAllServices": "Voir tous les services",
+    "seePricing": "Voir les tarifs",
+    "seeCases": "Voir les réalisations",
+    "backToTop": "Haut de page",
+    "readingTime": "{minutes} min de lecture",
+    "technicalDetail": "Détail technique",
+    "loading": "Un instant…"
+  },
+  "cta": {
+    "bookCall": "Réserver un appel de 20 min",
+    "bookDiagnostic": "Réserver le diagnostic",
+    "contact": "Décrire mon besoin",
+    "callNote": "Vingt minutes, gratuites, sans engagement. Si je ne suis pas la bonne personne, je vous le dis.",
+    "bandTitle": "Vingt minutes suffisent pour savoir si ça vaut la peine",
+    "bandText": "Vous m’expliquez ce qui vous embête aujourd’hui. Je vous dis franchement ce que je ferais, ce que ça coûterait, et si vous avez vraiment besoin de moi."
+  },
+  "home": {
+    "heroTitle": "Je fais gagner des heures aux petites entreprises, avec des outils qu’elles comprennent",
+    "heroSubtitle": "Sites internet, applications sur mesure, et intégration de l’IA dans des entreprises de 1 à 15 personnes. À Liège, et à distance. Prix affichés, langage clair, une seule personne du début à la fin.",
+    "heroLocation": "Jemeppe, près de Liège — on peut se voir.",
+    "painTitle": "Vous vous reconnaissez peut-être ici",
+    "painItems": {
+      "one": "Vous répondez dix fois par jour à la même question, par téléphone et par messages.",
+      "two": "Vous recopiez des informations d’un document vers un autre, le soir, après la journée.",
+      "three": "Votre site ne vous amène aucun client, ou vous n’en avez pas.",
+      "four": "On vous parle d’intelligence artificielle depuis deux ans et personne ne vous a expliqué ce que ça ferait chez vous."
+    },
+    "servicesTitle": "Quatre façons de commencer",
+    "servicesIntro": "Chaque offre a un périmètre écrit, un prix de départ et un délai. Ce qui n’est pas compris est écrit aussi.",
+    "demoTitle": "Essayez, tout de suite",
+    "demoIntro": "Le meilleur moyen de comprendre ce que ça fait, c’est de l’utiliser. Aucune inscription, ça tourne en direct sur cette page.",
+    "processTitle": "Comment ça se passe",
+    "processIntro": "Six étapes, annoncées à l’avance. Vous savez toujours où en est votre projet.",
+    "proofTitle": "Ce que j’ai déjà construit",
+    "proofIntro": "Mon propre produit, et des projets menés dans le cadre de mes emplois — présentés comme tels.",
+    "pricingTitle": "Les prix, affichés",
+    "pricingIntro": "Vous devez pouvoir savoir si c’est dans votre budget sans devoir m’appeler.",
+    "objectionsTitle": "Les questions que tout le monde se pose",
+    "trustTitle": "Pas encore de témoignages",
+    "trustText": "Je démarre mon activité indépendante. En attendant, voici ce que vous pouvez vérifier vous-même : mon code sur GitHub, mon parcours sur LinkedIn, mon numéro d’entreprise, et mes démos qui tournent en direct sur ce site.",
+    "guaranteeTitle": "Ce que je garantis à la place",
+    "guarantees": {
+      "one": "30 jours de corrections après la mise en ligne, sans supplément.",
+      "two": "Le code, le domaine et les comptes sont à votre nom. Aucun enfermement.",
+      "three": "Si le premier livrable ne vous convient pas, vous ne payez pas le solde.",
+      "four": "Je réponds sous 24 heures ouvrables."
+    }
+  },
+  "services": {
+    "pageTitle": "Ce que je fais",
+    "pageIntro": "Quatre offres. La première sert à choisir les trois autres.",
+    "problemTitle": "Le problème",
+    "relatedTitle": "Le forfait correspondant",
+    "casesTitle": "Sur ce sujet, j’ai déjà fait",
+    "faqTitle": "Questions sur ce service"
+  },
+  "aiPage": {
+    "definitionTitle": "Ce qu’est un modèle d’IA, en une phrase",
+    "definition": "Un modèle d’IA, c’est un logiciel qui lit du texte et qui en écrit. Il est très bon pour rédiger, résumer, classer et retrouver de l’information. Il n’est pas bon pour compter, pour décider à votre place, ni pour garantir qu’il ne se trompe pas. Un « agent », c’est simplement ce logiciel auquel on a donné le droit de faire quelques actions précises — envoyer un brouillon, créer une fiche, remplir un document — dans des limites que nous fixons ensemble.",
+    "useCasesTitle": "Six situations concrètes",
+    "useCasePain": "Le problème",
+    "useCaseDoes": "Ce que fait l’outil",
+    "useCaseChanges": "Ce que ça change",
+    "wontSellTitle": "Ce que je ne vous vendrai pas",
+    "dataTitle": "Vos données",
+    "dataIntro": "La question qu’on me pose le plus. Voici la réponse complète, sans détour.",
+    "dataStays": "Ce qui reste chez vous",
+    "dataStaysText": "Vos fichiers, votre base de données et vos sauvegardes ne partent nulle part. L’outil va y chercher un extrait au moment où il en a besoin.",
+    "dataEu": "Ce qui va vers un service européen",
+    "dataEuText": "L’hébergement de l’outil lui-même, ses journaux techniques et les données de fonctionnement : en Europe, quand la fonctionnalité le permet.",
+    "dataUs": "Ce qui part chez un fournisseur de modèle",
+    "dataUsText": "La question posée et les extraits de documents nécessaires pour y répondre. Rien d’autre. Vos données ne servent pas à entraîner un modèle, et un accord de sous-traitance est signé.",
+    "dataAlternative": "Les alternatives",
+    "dataAlternativeText": "Filtrer les données personnelles avant l’envoi, n’envoyer que le contexte métier, ou faire tourner un modèle plus petit chez vous quand la tâche le permet. On en discute avant de coder, pas après.",
+    "credibilityLine": "En 2019, mon premier vrai projet consistait précisément à filtrer les données privées avant qu’elles n’atteignent un chatbot dans le cloud. La question de vos données, je ne la découvre pas aujourd’hui.",
+    "honestyNote": "Une précision honnête : « hébergé en Europe » est défendable, « vos données ne quittent jamais l’UE » ne l’est pas dès qu’un modèle américain est appelé. Méfiez-vous de qui vous promet la seconde phrase."
+  },
+  "pricing": {
+    "pageTitle": "Tarifs",
+    "pageIntro": "Les prix de départ sont affichés. Un devis précis suit toujours un échange, parce qu’un prix sans périmètre ne veut rien dire.",
+    "capacityTitle": "Ma capacité, dite honnêtement",
+    "capacityText": "Je prends deux projets en parallèle, maximum. Quand c’est complet, je le dis et je vous donne une date.",
+    "termsTitle": "Conditions",
+    "terms": {
+      "payment": "40 % à la commande, 60 % à la livraison, payable à 15 jours.",
+      "vat": "Pas de TVA sur mes factures (régime de la franchise) : le prix affiché est le prix payé. Pour un client qui ne récupère pas la TVA, c’est 21 % de moins qu’une agence.",
+      "floor": "Je n’accepte pas de projet en dessous de 1 500 €. Si le budget est serré, on réduit le périmètre — trois pages à 1 400 € — jamais la qualité.",
+      "addons": "Les options ci-dessous s’ajoutent à n’importe quel forfait."
+    },
+    "addonsTitle": "Options",
+    "notIncludedTitle": "Ce qui n’est jamais compris, quel que soit le forfait",
+    "notIncluded": {
+      "one": "Les photographies professionnelles et la création d’un logo.",
+      "two": "Les licences, abonnements et achats de contenu chez des tiers.",
+      "three": "La rédaction complète de vos textes sans aucune participation de votre part.",
+      "four": "Les coûts d’API des modèles d’IA, facturés au réel et à prix coûtant."
+    }
+  },
+  "process": {
+    "pageTitle": "Comment on travaille ensemble",
+    "pageIntro": "Rien n’est laissé au hasard, et rien n’est une surprise. Voici les six étapes.",
+    "duration": "Durée",
+    "yourEffort": "Ce que ça vous demande"
+  },
+  "cases": {
+    "pageTitle": "Réalisations",
+    "honestyNote": "Je démarre mon activité indépendante. Les projets ci-dessous sont soit mon propre produit, soit des réalisations menées dans le cadre de mes emplois — je les présente comme telles, sans les faire passer pour des missions de freelance, et sans divulguer d’information confidentielle.",
+    "labels": {
+      "personnel": "Projet personnel",
+      "en-poste": "En poste",
+      "client": "Client"
+    },
+    "oneLiner": "En une ligne",
+    "situation": "La situation",
+    "constraint": "La contrainte",
+    "whatIDid": "Ce que j’ai fait",
+    "outcome": "Le résultat",
+    "buyerTranslation": "Ce que j’en retire pour vos projets",
+    "role": "Rôle",
+    "stack": "Technologies"
+  },
+  "about": {
+    "commitmentsTitle": "Mes engagements, écrits",
+    "wontSellTitle": "Ce que je ne vous vendrai pas",
+    "humanTitle": "En dehors du travail",
+    "photoAlt": "Portrait de Karim Khadro"
+  },
+  "faq": {
+    "pageTitle": "Questions fréquentes",
+    "pageIntro": "Les objections qu’on me pose vraiment. Les réponses sont les mêmes qu’au téléphone.",
+    "categories": {
+      "ai": "L’IA",
+      "pricing": "Prix et paiement",
+      "process": "Déroulement",
+      "legal": "Légal et RGPD",
+      "tech": "Technique"
+    }
+  },
+  "contact": {
+    "pageTitle": "Parlons de votre projet",
+    "pageIntro": "Décrivez votre besoin en quelques phrases. Je réponds sous 24 heures ouvrables, en général avec deux ou trois questions et une fourchette de prix.",
+    "orBook": "Vous préférez parler de vive voix ? Réservez vingt minutes.",
+    "directTitle": "En direct",
+    "email": "E-mail",
+    "form": {
+      "name": "Votre nom",
+      "company": "Nom de votre entreprise",
+      "companyOptional": "facultatif",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "phoneHint": "le plus rapide pour vous répondre",
+      "need": "De quoi avez-vous besoin ?",
+      "needOptions": {
+        "newSite": "Un nouveau site",
+        "redoSite": "Refaire mon site",
+        "internalApp": "Une application ou un outil interne",
+        "automate": "Automatiser une tâche répétitive",
+        "aiUnsure": "De l’IA, mais je ne sais pas encore comment",
+        "other": "Autre"
+      },
+      "message": "Racontez-moi en quelques phrases",
+      "messagePlaceholder": "Pas besoin de termes techniques. Décrivez ce qui vous embête aujourd’hui.",
+      "budget": "Budget envisagé",
+      "budgetOptions": {
+        "under2k": "Moins de 2 000 €",
+        "2to5k": "2 000 à 5 000 €",
+        "5to15k": "5 000 à 15 000 €",
+        "over15k": "Plus de 15 000 €",
+        "unsure": "Je ne sais pas encore, conseillez-moi"
+      },
+      "budgetNote": "Cette information me permet de vous proposer quelque chose de réaliste, pas de vous enfermer.",
+      "timing": "Pour quand ?",
+      "timingOptions": {
+        "asap": "Dès que possible",
+        "1to3": "Dans 1 à 3 mois",
+        "later": "Plus tard"
+      },
+      "consent": "J’accepte que mes informations soient utilisées pour me recontacter à propos de ma demande.",
+      "consentLink": "Voir la politique de confidentialité",
+      "submit": "Envoyer ma demande",
+      "submitting": "Envoi…",
+      "required": "obligatoire",
+      "errors": {
+        "name": "Merci d’indiquer votre nom.",
+        "email": "Cette adresse e-mail ne semble pas valide.",
+        "message": "Quelques phrases suffisent, mais il en faut quelques-unes.",
+        "consent": "Sans cet accord, je ne peux pas vous recontacter.",
+        "tooFast": "Merci de prendre un instant pour remplir le formulaire.",
+        "rateLimited": "Trop de demandes envoyées depuis cet appareil. Réessayez dans une heure, ou appelez-moi.",
+        "generic": "L’envoi a échoué. Écrivez-moi directement à {email}, ça marchera."
+      }
+    }
+  },
+  "thanks": {
+    "title": "Reçu.",
+    "text": "Je vous réponds sous 24 heures ouvrables, en général avec deux ou trois questions et une fourchette de prix.",
+    "bookInstead": "Vous voulez avancer plus vite ? Réservez directement vingt minutes.",
+    "backHome": "Retour à l’accueil"
+  },
+  "booking": {
+    "pageTitle": "Réserver un appel de 20 minutes",
+    "pageIntro": "Gratuit, sans engagement. Vous m’expliquez votre situation, je vous dis franchement ce que je ferais — et si je ne suis pas la bonne personne, je vous oriente ailleurs.",
+    "gateTitle": "Afficher le calendrier (Cal.com)",
+    "gateNotice": "Le calendrier est fourni par Cal.com et dépose ses propres cookies. Il ne se charge que si vous cliquez. Sinon, écrivez-moi : c’est aussi rapide.",
+    "gateButton": "Afficher le calendrier",
+    "gateAlternative": "Ou passez par le formulaire",
+    "expect": "Ce qu’on fera pendant ces 20 minutes",
+    "expectItems": {
+      "one": "Vous décrivez ce qui vous embête aujourd’hui, sans termes techniques.",
+      "two": "Je pose trois ou quatre questions et je vous donne une fourchette de prix.",
+      "three": "On décide de la suite : un diagnostic, un devis, ou rien du tout."
+    }
+  },
+  "demos": {
+    "pageTitle": "Deux démos, qui tournent vraiment",
+    "pageIntro": "Sans inscription, sans e-mail à donner. Deux tours de conversation par démo, puis on en parle de vive voix.",
+    "replyDrafter": {
+      "title": "Répondez à ce client en 30 secondes",
+      "intro": "Collez un message reçu d’un client, choisissez votre métier et le ton. Vous obtenez une réponse prête à envoyer, et ce que l’outil a compris.",
+      "inputLabel": "Le message reçu",
+      "inputPlaceholder": "Bonjour, ma voiture fait un bruit bizarre au freinage depuis lundi, c’est une Golf de 2015. Vous pourriez la prendre cette semaine et ça coûterait combien ?",
+      "sampleButton": "Utiliser un exemple",
+      "tradeLabel": "Votre métier",
+      "toneLabel": "Le ton",
+      "trades": {
+        "garage": "Garage",
+        "bakery": "Boulangerie / restaurant",
+        "construction": "Construction",
+        "practice": "Cabinet / kiné",
+        "retail": "Commerce"
+      },
+      "tones": {
+        "warm": "Chaleureux",
+        "neutral": "Neutre et professionnel",
+        "brief": "Bref et direct"
+      },
+      "submit": "Rédiger la réponse",
+      "understoodTitle": "Ce que l’outil a compris",
+      "replyTitle": "La réponse proposée",
+      "caption": "Ici, l’outil ne connaît rien de votre entreprise. Chez vous, il connaît vos tarifs, vos disponibilités et vos anciens devis."
+    },
+    "siteAssistant": {
+      "title": "Posez-moi une question sur ce site",
+      "intro": "Cet assistant ne répond qu’à partir du contenu de ce site : les offres, les prix, le déroulement, ce que je ne fais pas. S’il ne sait pas, il le dit et vous passe la main.",
+      "inputLabel": "Votre question",
+      "inputPlaceholder": "Combien coûte un site vitrine, et en combien de temps ?",
+      "sampleButton": "Utiliser un exemple",
+      "submit": "Poser la question",
+      "sources": "D’où vient cette réponse",
+      "handoff": "Je ne sais pas répondre à ça — écrivez-lui, il répond sous 24 h.",
+      "handoffButton": "Poser la question à Karim"
+    },
+    "turnsLeft": "{count, plural, =0 {Démo terminée} =1 {Encore une question} other {# questions restantes}}",
+    "finishedTitle": "Démo terminée — parlons de votre cas",
+    "finishedText": "Deux tours, c’est la limite ici. Chez vous, il n’y en a pas : l’outil connaît vos données et travaille toute la journée.",
+    "fallbackBadge": "démo enregistrée — réessayez dans quelques minutes",
+    "errorBadge": "la démo est momentanément indisponible — voici un exemple enregistré",
+    "privacyNotice": "Votre message est envoyé à l’API d’Anthropic pour générer la réponse. Ne saisissez pas de données personnelles ou confidentielles.",
+    "explainerTitle": "Voici ce que l’IA a reçu",
+    "explainerText": "Pas de magie : l’outil reçoit une consigne écrite, votre message, et rien d’autre. Il n’a accès ni à une base de données, ni à votre boîte mail, ni à internet."
+  },
+  "guides": {
+    "pageTitle": "Guides",
+    "pageIntro": "Les réponses que je donne au téléphone, écrites une bonne fois. Sans date, parce qu’elles ne périment pas.",
+    "ctaTitle": "Une question sur votre cas précis ?",
+    "ctaText": "Vingt minutes au téléphone valent mieux que dix pages de guide."
+  },
+  "cv": {
+    "pageTitle": "Karim Khadro — CV",
+    "audienceNote": "Cette page s’adresse aux recruteurs et aux équipes techniques. Si vous cherchez un prestataire pour votre entreprise, la partie services est ici.",
+    "servicesLink": "Voir les services",
+    "downloadPdf": "Télécharger le CV (PDF)",
+    "experience": "Expérience",
+    "education": "Formation",
+    "skills": "Compétences",
+    "languages": "Langues",
+    "tools": "Outils",
+    "sideProjects": "Projets personnels",
+    "stack": "Technologies"
+  },
+  "legal": {
+    "pageTitle": "Mentions légales",
+    "editorTitle": "Éditeur du site",
+    "editorText": "Karim Khadro, indépendant, personne physique. {city}, Belgique. Adresse complète communiquée sur demande.",
+    "bceLabel": "Numéro d’entreprise (BCE)",
+    "contactLabel": "Contact",
+    "vatTitle": "TVA",
+    "hostingTitle": "Hébergement",
+    "hostingText": "Le site est hébergé par Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis. Les fonctions serveur sont exécutées dans la région de Francfort (Allemagne).",
+    "ipTitle": "Propriété intellectuelle",
+    "ipText": "Les textes et les images de ce site sont la propriété de Karim Khadro, sauf mention contraire. Le code du site est disponible publiquement sur GitHub.",
+    "liabilityTitle": "Responsabilité",
+    "liabilityText": "Les informations de ce site sont données à titre indicatif. Les prix affichés sont des prix de départ et ne constituent pas une offre contractuelle : seul un devis signé engage."
+  },
+  "privacy": {
+    "pageTitle": "Politique de confidentialité",
+    "intro": "Version courte : je ne collecte que ce dont j’ai besoin pour vous répondre, je ne revends rien, et je supprime sur demande.",
+    "controllerTitle": "Qui est responsable du traitement",
+    "controllerText": "Karim Khadro, {city}, Belgique — numéro d’entreprise {bce}. Vous pouvez me joindre à {email}.",
+    "dataTitle": "Ce que je collecte, et pourquoi",
+    "dataForm": "Formulaire de contact : nom, entreprise, e-mail, téléphone, budget, délai et votre message. Base légale : votre consentement. Finalité : vous répondre et préparer une proposition.",
+    "dataBooking": "Prise de rendez-vous : si vous chargez le calendrier, Cal.com traite les informations nécessaires à la réservation, selon sa propre politique.",
+    "dataDemos": "Démos d’IA : votre message est transmis à Anthropic pour produire la réponse. Le contenu des messages n’est pas conservé ; seuls le nombre de jetons et le code de réponse sont comptés.",
+    "dataAnalytics": "Statistiques : mesure d’audience sans cookie et sans identifiant personnel, via Vercel Analytics.",
+    "retentionTitle": "Combien de temps",
+    "retentionText": "Les demandes reçues par formulaire sont conservées 24 mois dans ma boîte mail, puis supprimées.",
+    "processorsTitle": "À qui les données sont transmises",
+    "processorsText": "Vercel (hébergement, région de Francfort), Resend (envoi de l’e-mail), Cal.com (rendez-vous, uniquement si vous chargez le calendrier), Cloudflare (protection anti-robot), Upstash (limitation du nombre de requêtes), Anthropic (démos d’IA uniquement). Aucune donnée n’est revendue.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Ce site ne dépose pas de cookie publicitaire ni de cookie de mesure d’audience. Seuls deux cookies techniques existent : votre choix de langue, et un cookie de session pour les démos. C’est pourquoi vous ne voyez pas de bandeau à accepter.",
+    "rightsTitle": "Vos droits",
+    "rightsText": "Accès, rectification, effacement, limitation, opposition et portabilité. Écrivez-moi à {email} : je traite la demande sous 30 jours. Vous pouvez aussi déposer une plainte auprès de l’Autorité de protection des données (autoriteprotectiondonnees.be)."
+  },
+  "notFound": {
+    "title": "Cette page n’existe pas",
+    "text": "Le lien est peut-être ancien : ce site a été entièrement refait. Voici par où reprendre.",
+    "home": "Accueil",
+    "services": "Les services",
+    "contact": "Me contacter"
+  }
+}
